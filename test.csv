@@ -1,0 +1,249 @@
+Query,Tool
+"I want to plan a ferry trip from Dublin to Liverpool, can you give me some recommendations?",TripTool
+What is the latest data on the market?,FinanceTool
+Can you help me find affordable finance degrees on Coursera?,CourseTool
+This market is a disaster! Is there any news about the recent crash in crypto prices?,FinanceTool
+What's the UV index in Los Angeles right now?,WeatherTool
+"The gas fee for a standard Ethereum transaction refers to the amount of cryptocurrency required to successfully process and execute the transaction on the Ethereum network, and it is determined based on factors such as network congestion, complexity of the transaction, and gas price set by ETH miners.",FinanceTool
+Can you help me predict the value of stocks?,FinanceTool
+"I'm planning a road trip across the United States, and I would like suggestions for must-see landmarks and attractions in each state, as well as recommendations for affordable accommodations and local cuisine options along the way. Additionally, it would be helpful to know if there are any specific routes or scenic drives that are highly recommended for a memorable road trip experience.",TripTool
+Please provide me with the detailed historical stock price information of Amazon specifically for the previous year.,FinanceTool
+"Can you please provide me with the current UV index in Toronto, Canada, specifying the time or date you are inquiring about?",WeatherTool
+Can you generate a report on the historical performance of a specific stock using quantitative analysis?,FinanceTool
+"Please provide me with detailed information regarding the historical popularity and current growth potential of the NFT collection titled ""Famous Paintings"".",FinanceTool
+Can you provide information about California's laws regarding parental leave?,LawTool
+Can you help me find affordable flights from New York to Los Angeles departing on August 10th and returning on August 20th for two adults and one infant?,TripTool
+I want to know the financial analysis for Amazon. Can you help me with that?,FinanceTool
+Can you please provide me with more information about users' requests?,WeatherTool
+Can you help me find the perfect stay in the US?,TripTool
+I'm interested in a particular NFT collection. Can you give me insights based on its data?,FinanceTool
+I'm looking for a budget-friendly hotel in New York City. Any recommendations?,TripTool
+I want to stay updated on NFT news. Can you provide me with a clickable link roundup of today's headlines?,FinanceTool
+"I have a limited budget and I want to travel to a beautiful beach destination, can you suggest some affordable options?",TripTool
+"At this moment, please provide the specific details of the temperature and wind speed at Tokyo Haneda Airport as requested by the users.",WeatherTool
+Do the users request to know whether it is going to rain specifically this weekend or are they asking about the weather in general for the upcoming weekend?,WeatherTool
+Please provide me with a list of the top 5 DeFi protocols ranked by the highest Total Value Locked (TVL) at the present moment.,FinanceTool
+Help me find an affordable vehicle in Seattle for a weekend getaway.,TripTool
+Can you suggest some family-friendly activities in Orlando that are suitable for all age groups and offer a variety of entertainment options to keep everyone engaged and happy during their visit?,TripTool
+"I'm planning a road trip across the United States, and I'm seeking recommendations for must-see destinations, scenic routes, good roadside attractions, and popular local eateries along the way.",TripTool
+What is the legal precedent set by the case of Brown vs. Board of Education?,LawTool
+I'm planning a vacation to Bali. Can you provide some ideas for things to do there?,TripTool
+Could you please recommend a lawyer in Hiroshima who specializes in family law and child custody cases?,LawTool
+I want to improve my programming skills. Are there any coding courses you can suggest?,CourseTool
+I would like to receive a comprehensive update on the most recent news articles specifically focusing on the latest developments and trends in the realm of decentralized finance (DeFi).,FinanceTool
+"Please provide me with the complete historical price data for gold, including the opening and closing prices, highest and lowest prices, trading volume, and any other relevant information, specifically spanning the entire duration of the past year.",FinanceTool
+I'm so angry at these overpriced NFTs. Give me the price to earnings ratio for the Art Blocks collection.,FinanceTool
+"Can you thoroughly analyze and compare the historical and current stock values of Coca-Cola and PepsiCo using quantitative methodologies, such as financial ratios, statistical analyses, and trend analysis, and provide a detailed explanation of any observed differences or trends between the two companies?",FinanceTool
+"I'm looking for a reliable airport transfer service in Sydney specifically for international flights, preferably with experienced and professional drivers who are knowledgeable about the local area and can assist with luggage handling. Any recommendations that can provide comfortable vehicles with ample space for passengers and offer competitive prices would be greatly appreciated.",TripTool
+Please retrieve and provide me with the complete list of the top five stocks currently held by the SPDR S&P 500 ETF (SPY).,FinanceTool
+"Access the full text of the case 'ABC Corp., 123 F.3d at 569' and provide me with relevant quotes.",LawTool
+I'm interested in learning about artificial intelligence. Are there any courses available on the subject?,CourseTool
+Can you guide me to a Spanish language learning course tailored for business professionals?,CourseTool
+"Can you suggest some beginner-friendly, comprehensive, and up-to-date courses or specializations on Coursera specifically focused on artificial intelligence and machine learning?",CourseTool
+I want to know the real-time value of my cryptocurrency portfolio.,FinanceTool
+"Hello! I'm looking to expand my knowledge in machine learning. Can you guide me towards some courses, specializations, or degrees on Coursera?",CourseTool
+"I would like to plan a ferry trip from Dublin, Ireland to Liverpool, United Kingdom. Could you kindly provide me with detailed recommendations regarding the best ferry options, departure and arrival times, ticket prices, and any additional information I should know?",TripTool
+Please provide me with a list of budget-friendly hotels in Kyoto that are suitable for my stay.,TripTool
+I'm frustrated with my current crypto wallet. It's not user-friendly and I have trouble finding my transaction history. Can you assist me in accessing my transaction history on Ethereum?,FinanceTool
+What are the stock prices?,FinanceTool
+What are the current market trends for the tech sector?,FinanceTool
+"I'm livid! I want the current options data for a particular stock, and I want it without any delay! Can you get that for me?",FinanceTool
+I'm interested in evaluating the price-to-sales ratio and debt-to-equity ratio for Google stock in order to assess its financial performance and stability.,FinanceTool
+Can you provide me with the price to earnings ratio for CryptoPunks?,FinanceTool
+The all-time high price of Cardano is the highest value ever recorded for the cryptocurrency in its entire history.,FinanceTool
+How does California law define child custody and visitation rights?,LawTool
+What are some fun activities to do in London?,TripTool
+"I'm looking for an all-inclusive hotel with overwater bungalows that offers stunning views of the turquoise ocean, direct access to a private deck for swimming and snorkeling, complimentary water sports activities such as kayaking and paddleboarding, gourmet dining options with a variety of international cuisines, a luxurious spa for ultimate relaxation, a fitness center equipped with state-of-the-art facilities, exclusive amenities such as private butler service and personalized in-room dining, and convenient transportation services for easy access to nearby attractions and excursions.",TripTool
+"Can you provide specific requirements or preferences for the hotel in Hiroshima city center, such as budget, star rating, amenities, or proximity to certain attractions?",TripTool
+I'm furious about the tax rate in California! Can you provide me with the relevant laws?,LawTool
+"Please provide the historical risk metrics such as volatility, beta, and standard deviation for the Apple stock.",FinanceTool
+I want to learn more about the tokenomics of a new cryptocurrency project. Can you assist me with that?,FinanceTool
+Can you show me the latest SEC filing for ABC company?,FinanceTool
+"I'm looking for professional certificates in project management on Coursera, specifically accredited and recognized by renowned institutions in the field such as the Project Management Institute (PMI) or the International Project Management Association (IPMA).",CourseTool
+Hi there! Can you help me find the best prices for flights from New York to London? ,TripTool
+Can you provide me with information about the company whose stocks had the highest growth rate in the past month?,FinanceTool
+"What is the sentiment of news media towards Bitcoin at the moment? Also, can you tell me how it's affecting the price?",FinanceTool
+What is the weather forecast for today?,WeatherTool
+I'm confused about California's income tax brackets. Can you explain how they work?,LawTool
+Please find me a highly qualified lawyer in Yokohama who specializes in personal injury cases and can provide expert legal counsel and representation throughout the entire process to ensure the best possible outcome for my case.,LawTool
+Could you provide a market analysis on this NFT collection?,FinanceTool
+Can you recommend any online courses to improve my programming skills?,CourseTool
+"In order to assist users, please provide detailed historical performance analysis including past returns, volatility, risk measures, and any other relevant financial metrics for the Invesco QQQ Trust.",FinanceTool
+"Can you please fetch the latest METAR weather data specifically for Atlanta Hartsfield-Jackson Airport, including information on temperature, wind velocity and direction, visibility, and any weather phenomena? I require this data urgently as it is crucial for my upcoming trip planning.",WeatherTool
+"I am trying to find a beginner's course in photography on Coursera, can you help?",CourseTool
+The user is requesting to retrieve specific SEC filings from Microsoft that are related to their recent acquisition.,FinanceTool
+"I'm planning a short-duration, essential business trip to the vibrant and bustling city of London for a period of five days, from the 10th to the 14th of February, to attend a crucial conference on global marketing strategies and establish potential partnerships with influential industry professionals.",TripTool
+Please provide me with the annual revenue and earnings per share data for Microsoft stock.,FinanceTool
+"Ugh, it's so hot outside! Can you tell me the temperature for tomorrow?",WeatherTool
+Hello! I'm looking for a flight from Sydney to Tokyo. Can you help me find the most affordable options?,TripTool
+I'm planning a trip to Paris and I need help finding affordable accommodations. Can you assist me?,TripTool
+"Find luxury hotels in Sapporo that offer exceptional amenities, such as spacious suites, breathtaking city views, on-site gourmet restaurants, state-of-the-art fitness centers, rejuvenating spa facilities, and convenient access to popular tourist attractions.",TripTool
+"Hey, I've heard a lot about the price to earnings ratio of the Meebits collection and I was wondering if you could provide more information on how this ratio is calculated, what it signifies, and how it is currently performing in the market.",FinanceTool
+Which cryptocurrency has the highest market cap right now?,FinanceTool
+"Could you please provide the payment link for creating a comprehensive and detailed lesson plan specifically on machine learning technology, encompassing key concepts, techniques, and practical implementations?",CourseTool
+What's the wind speed in San Francisco this afternoon?,WeatherTool
+"I'm interested in understanding the foundational principles, theories, and concepts that form the basis of economics and contribute to our understanding of how economies function at both a micro and macro level.",CourseTool
+"As a user, I would like to know the specific and accurate expected temperature in Rome for this afternoon.",WeatherTool
+"I'm currently in the early stages of planning a road trip across California, and I am looking for detailed information and suggestions regarding the best routes, must-visit attractions, recommended accommodations, and any other insider tips or hidden gems that would enhance my experience.",TripTool
+"I'm studying Italian for my art history class and I would like to request resources and recommendations for language learning materials, such as textbooks, online courses, and audio resources, to improve my language skills specifically in the context of art history.",CourseTool
+"I'm interested in reading about the latest NFT news, particularly focusing on updates about new NFT marketplaces, emerging trends in NFT art, success stories of NFT collectors, and the impact of NFTs on various industries such as music, gaming, and sports.",FinanceTool
+"Can you please provide me with the current price to earnings ratio for CryptoPunks, specifically in the context of the cryptocurrency market?",FinanceTool
+This is ridiculous! I want to find a hotel with a pool in Osaka!,TripTool
+I want to analyze the dividend yield and price-to-earnings ratio for Coca-Cola stock. Can you fetch that information?,FinanceTool
+I'm so frustrated with my current job! Can you recommend some courses on Coursera that can help me switch careers?,CourseTool
+I want to understand the comprehensive global stock value analysis based on quantitative methodologies.,FinanceTool
+I'm looking for the latest news articles on decentralized finance (DeFi). Can you help me with that?,FinanceTool
+What are the current metrics for stock XYZ?,FinanceTool
+I'm eager to improve my knowledge and skills. Are there any outstanding online classes and teachers available on Outschool?,CourseTool
+Can you help me find a ferry?,TripTool
+I'm looking for a skilled and experienced tutor who can provide me with comprehensive lessons in Mandarin Chinese to help me learn the language proficiently.,CourseTool
+Can you give me the latest price of Bitcoin and Ethereum in US dollars?,FinanceTool
+Can you please provide more information about the specific types of discrimination or situations in the workplace that you are interested in within the California laws?,LawTool
+"Can you fact-check this legal statement: ""Freedom of speech in the United States is unrestricted""?",LawTool
+I want to book a hotel in Hiroshima.,TripTool
+I'm looking for a last-minute flight to London under $500.,TripTool
+Please provide me with the most up-to-date and accurate details regarding the current weather conditions specifically at JFK Airport.,WeatherTool
+I'm in Sendai and I need a lawyer who can handle criminal defense cases. Can you find one for me?,LawTool
+"Please provide the current price of Chainlink (LINK) in Brazilian Real, along with any relevant additional details or information.",FinanceTool
+I can't understand the performance of my holdings. Please help me.,FinanceTool
+"Please show me a comprehensive list of beginner-level resources such as tutorials, guides, and explanations about the foundational aspects of Ethereum, along with up-to-date news articles related to Ethereum.",FinanceTool
+"Users are looking for information on the most efficient and preferred ferry connection that operates between the cities of Vancouver and Victoria in terms of reliability, comfort, and convenience.",TripTool
+I need to book a motel in Los Angeles. Can you suggest a budget-friendly option?,TripTool
+"Can you provide me the most recent updates regarding Bitcoin, including any significant developments or events, and could you clarify if these factors have influenced the price or market sentiment?",FinanceTool
+What is the current price of Bitcoin?,FinanceTool
+How has the market sentiment towards Bitcoin been lately? I'd like to know if it aligns with the current price movement.,FinanceTool
+"Can you kindly display the current price of Ethereum, specifically referring to the latest market value?",FinanceTool
+What are the options available?,FinanceTool
+"I'm currently residing in California and I am highly interested in venturing into the cannabis industry by setting up a legal business specifically related to cannabis production, distribution, or retail.",LawTool
+What is the latest data from CCData.io?,FinanceTool
+Greetings! I want to explore the beautiful beaches of Bali. Can you give me some recommendations for accommodations and things to do there?,TripTool
+I want to upskill in digital marketing. Can you provide me with a comprehensive guide?,CourseTool
+Show me the top trending tokens on the blockchain right now.,FinanceTool
+I want to explore the ethical implications of artificial intelligence. Can you find any resources from university courses that discuss this topic?,CourseTool
+Why is the price of bitcoin dropping so rapidly?,FinanceTool
+"Can you analyze the detailed transaction history, including all incoming and outgoing transactions, addresses involved, and timestamps, of a specific smart contract on Ethereum, with the purpose of identifying and flagging any potential suspicious activities or irregularities?",FinanceTool
+What is the current weather like in New York?,WeatherTool
+I'm curious about the current price to earnings ratio (P/E ratio) of the Cool Cats company.,FinanceTool
+I need assistance in finding a bilingual lawyer who specializes in immigration law in Osaka.,LawTool
+Please give me the 24-hour price change percentage of Litecoin.,FinanceTool
+"Please compare the risk and return percentages for Amazon and Microsoft stocks over a specified period of time, considering factors such as historical performance, industry trends, and market volatility.",FinanceTool
+Can you provide me with the specific percentage or probability of precipitation in Berlin tomorrow morning at a given time?,WeatherTool
+"What is the wind speed in Boston, Massachusetts?",WeatherTool
+What is the Sharpe ratio of Amazon stock?,FinanceTool
+Can you connect me with a highly proficient and experienced Spanish tutor who specializes in teaching young children between the ages of 5 and 10 years old?,CourseTool
+"The key financial metrics mentioned in Microsoft's latest Earnings Call Transcript include revenue, operating income, net income, diluted earnings per share, gross margin, and operating expenses.",FinanceTool
+Can you find me a budget-friendly hotel in San Francisco with a good view of the Golden Gate Bridge?,TripTool
+"I'm interested in learning about the history of ancient civilizations, such as the rise and fall of prominent empires, their cultural and social structures, significant events, technological advancements, and the impact they had on shaping the world as we know it today.",CourseTool
+I want to become fluent in Mandarin. Can you find me a language tutor who can provide lessons tailored to my learning goals?,CourseTool
+I'm looking for a car rental,TripTool
+"To provide the most accurate response to users' requests, please directly add more details in the given sentence about users' requests.",FinanceTool
+"Could you please find the current price to earnings ratio for the Art Blocks Curated collection, which is a popular collection of curated digital artworks?",FinanceTool
+Can you show me a graph of the price changes of Ethereum over the past month?,FinanceTool
+"How can I identify undervalued stocks using quantitative methods, such as financial ratio analysis, regression models, and statistical indicators?",FinanceTool
+I'm planning to travel to a foreign country and I need to learn the language. Can you help me find a tutor who can teach me basic conversational skills?,CourseTool
+I'm looking for a lawyer in Japan who speaks English and specializes in immigration law. Can you help me find one?,LawTool
+"Can you please provide me with the cryptocurrency that has the highest market capitalization at present, along with a comprehensive breakdown of its price history throughout the previous year?",FinanceTool
+"Tell me the weather summary for Los Angeles, California.",WeatherTool
+Are there any courses available through edX?,CourseTool
+"Can you please provide me with a detailed analysis comparing the historical performance of both Netflix and Disney stocks, including factors such as overall returns, growth rates, dividends, volatility, and any other relevant financial metrics?",FinanceTool
+"Could you please show me a current radar image specifically depicting the weather conditions in Chicago, Illinois?",WeatherTool
+"I'm going to be in Los Angeles next week, what are some must-see places there?",TripTool
+Hi Chatbot! I'm curious about the current value and historical performance of gold. Can you give me real-time data on gold prices?,FinanceTool
+Can you suggest a ski-in ski-out hotel with a heated pool and jacuzzi in the room?,TripTool
+What are the current prices of Bitcoin and Ethereum?,FinanceTool
+Fetch the all-time high price of Binance Coin.,FinanceTool
+This market is a complete disaster! I need to analyze TSLA and get some comprehensive real-time investment data immediately.,FinanceTool
+Which company's stocks had the highest growth rate in the past month?,FinanceTool
+What is the current METAR weather data for this airport?,WeatherTool
+"What's the weather like in London, UK right now?",WeatherTool
+"Can you please provide me with the detailed weather forecast for Berlin tomorrow, specifically inquiring about the possibility of snow?",WeatherTool
+"After carefully analyzing the current market trends, assessing Facebook's financial performance, and consulting with various industry experts, I'm seriously contemplating making a substantial investment in Facebook.",FinanceTool
+Can you tell me the current price of Bitcoin in USD?,FinanceTool
+I need support in developing a curriculum on financial management. Can you guide me?,CourseTool
+Can you provide the real-time price information for gold?,FinanceTool
+"I'm traveling to a remote mountain cabin in the woods with a large group of close-knit friends from college, looking to enjoy a weekend getaway filled with hiking, campfires, and sharing unforgettable memories together.",TripTool
+Can you explain the concept of valuation ratios and how they influence stock prices?,FinanceTool
+"When it comes to making investment decisions, it is crucial to thoroughly assess and evaluate key quantitative factors such as the historical financial performance of the investment option, current market conditions, expected returns, risk analysis including volatility and beta, market liquidity, debt-to-equity ratios, cash flow projections, price-to-earnings ratio, dividend yield, and valuation metrics.",FinanceTool
+This is ridiculous! I need to find the best online classes and teachers! Can you search for me and find top-quality online classes and teachers on Outschool?,CourseTool
+Can you assist me in finding a ferry from Helsinki to Stockholm for tomorrow?,TripTool
+Can you give me the performance data for Apple stock? ,FinanceTool
+I've been trying to plan my trip to the Greek islands and I can't find any ferry schedules or prices. Can you provide me with that information?,TripTool
+The price of Litecoin increased by [specific percentage or numerical value] in the past 24 hours.,FinanceTool
+I need the METAR report for Chicago O'Hare International Airport. Can you fetch that?,WeatherTool
+I'm going on a business trip to San Francisco. Can you help me find a hotel with good amenities?,TripTool
+Can you please tell me the forecast for London?,WeatherTool
+"I want to know the comprehensive and up-to-date financial analysis, including factors such as revenue, expenses, profit margins, cash flow, and balance sheet, specifically for the multinational technology company Amazon.",FinanceTool
+"Please provide me with the current price to earnings ratio of the Bored Ape Kennel Club collection, as I am seeking assistance in determining its valuation.",FinanceTool
+Where can I find the source code of a specific smart contract on Ethereum? Could you please assist me by providing the exact steps or links to access the desired source code?,FinanceTool
+"I'm interested in upskilling in data analysis specifically by learning advanced statistical techniques, data visualization, and machine learning algorithms to derive meaningful insights from large datasets.",CourseTool
+Please fetch me the annual revenue growth rate and net profit margin for IBM stock.,FinanceTool
+"I need the METAR report for Chicago O'Hare International Airport, including the current temperature, wind speed and direction, visibility, cloud cover, atmospheric pressure, and any additional relevant weather information.",WeatherTool
+"This car rental service is a complete joke. Show me some available cars in Los Angeles."" ",TripTool
+"I'm interested in investing in specific technology stocks from the telecommunications sector, preferably established companies with a strong track record and a history of consistent growth in their stock prices.",FinanceTool
+I received a jury duty summons in California. What are my obligations?,LawTool
+"I would like to kindly request detailed information on the fundamental aspects of Apple stock, including its financial performance, market position, product portfolio, and any significant events or developments that have an impact on its value.",FinanceTool
+I can't believe how terrible this car rental platform is. Find me a car in Chicago ASAP! ,TripTool
+Give me the current market data and financial filings for Bitcoin.,FinanceTool
+"Could you analyze the security features of a smart contract on Ethereum, ensuring it is free from vulnerabilities?",FinanceTool
+What types of crypto currencies can I explore?,FinanceTool
+Is it going to be windy in Moscow next Thursday?,WeatherTool
+Is there a lawyer in Kyoto who can help me with contract law?,LawTool
+"Can you please provide me with the most recent, detailed technical analysis report and insights specifically tailored for Apple stock, including key indicators, price levels, patterns, and potential trading strategies?",FinanceTool
+"What were the specific dates, durations, and percentages of the drawdowns (a decline in stock prices) of Amazon stock in the last five years?",FinanceTool
+What's the current weather like in New York City?,WeatherTool
+"Can you provide detailed insights, including information about the history, rarity, value, and current market trends of the ""Mutant Ape Yacht Club"" NFT collection?",FinanceTool
+"Could you please provide me with a detailed weather update for Tokyo tomorrow, specifically regarding the possibility of rain?",WeatherTool
+Hey! I'm interested in knowing the risk metrics of Tesla. Can you help me with that?,FinanceTool
+"I'm planning a trip to Paris and I need help finding affordable accommodations that are well-located, comfortable, and preferably within close proximity to major tourist attractions and public transportation options.",TripTool
+"I'm studying the American Civil War, specifically focusing on the military strategies employed by both the Union and Confederate forces, analyzing key battles such as Gettysburg and Antietam, exploring the impact of social and political factors on the conflict, and examining the emancipation of slaves as a key aspect of the war.",CourseTool
+Hi! I'm super excited about NFTs. Do you have a feature that can provide me with a roundup of today's NFT news articles and make the headlines clickable?,FinanceTool
+I want to know the historical price of Bitcoin and how it has changed over time.,FinanceTool
+"What are the temperature, precipitation and wind speed for tomorrow?",WeatherTool
+"Hi there! I'm interested in staying updated about the latest news in the world of NFTs. Can you provide me with a roundup of today's NFT news headlines, complete with clickable links?",FinanceTool
+Can you suggest a hotel near Mount Fuji?,TripTool
+Can you tell me the penalties for driving without a license in California?,LawTool
+I'm looking for a lawyer to help me navigate the Japanese immigration system. Do you know anyone?,LawTool
+How can I access markdown tables?,FinanceTool
+"Where can I find a comprehensive and up-to-date summary of today's NFT news, encompassing various aspects such as recent developments, notable events, and important discussions, providing clickable links to the full articles for further exploration?",FinanceTool
+"Can you provide any active weather alerts for New Delhi, India?",WeatherTool
+Give me insights into the volatility and drawdowns of Bitcoin and other cryptocurrencies.,FinanceTool
+I'm curious about the market sentiment of Bitcoin. Can you provide me with an overview based on recent news coverage?,FinanceTool
+"I'm interested in learning Russian for academic purposes, specifically to enhance my understanding of Russian literature and culture, as well as to potentially contribute to future research projects or academic collaborations related to Russian studies.",CourseTool
+Please provide me with insights based on the data of the Whimsical Pets NFT collection.,FinanceTool
+I want to plan a beach vacation in Bali. Can you recommend some affordable hotels?,TripTool
+I'm planning a road trip along the California coast. Can you help me find affordable accommodations along the way?,TripTool
+"I'm interested in psychology and would like to learn more about the various theories, research studies, and practical applications in the field. Additionally, I am eager to explore different subfields such as cognitive psychology, abnormal psychology, and social psychology, in order to gain a comprehensive understanding of how the mind works and how it influences human behavior.",CourseTool
+Will it rain in Tokyo next Tuesday?,WeatherTool
+I'm looking for a perfect stay in the US.,TripTool
+Can you provide me with the real-time and up-to-date value of Bitcoin?,FinanceTool
+Good day! I'm interested in upskilling in graphic design. Can you create an activity matrix for this topic?,CourseTool
+I kindly request detailed information specifically related to Twitter's user growth strategy as discussed in their earnings call.,FinanceTool
+"I urgently need immediate assistance in booking a last-minute flight for tomorrow's departure from Chicago O'Hare International Airport to Miami International Airport, preferably in the morning.",TripTool
+Is there any significant individual stock flow occurring in the market right now? Can you please provide me with a detailed analysis specifically for a particular stock?,FinanceTool
+What is the value of this NFT collection?,FinanceTool
+I want to perform a quantitative analysis of the performance of energy sector stocks in the global market. Can you provide insights based on historical data and factors influencing their values?,FinanceTool
+"I would like to investigate the relationship between the transaction volume of a particular cryptocurrency, specifically focusing on the frequency and value of transactions, and how it impacts the price fluctuations of that cryptocurrency.",FinanceTool
+"Can you tell me the maximum gust wind speed in Toronto, Canada?",WeatherTool
+"Can you help me find a good hotel deal in Paris, preferably a centrally located hotel with a budget-friendly price and positive customer reviews?",TripTool
+"Can you provide information about California's laws regarding parental leave, including the duration of leave allowed, eligibility criteria, and any additional benefits or protections provided to parents under these laws?",LawTool
+"Hey, I'm interested in the current price to earnings ratio of Rumble Kong League, which is a financial metric used to assess the relative value of the league's stock by comparing its market price per share to its earnings per share.",FinanceTool
+I want to pursue a career in data science. Which online courses would you recommend to get started?,CourseTool
+I need a place to stay in New York City for a weekend getaway. Can you find me a hotel with the best rates?,TripTool
+"I'm interested in learning German to effectively communicate with my German colleagues, understand technical documents written in German, and enhance my overall engineering skills required for my job.",CourseTool
+Can you provide me with the risk data for Google stock? I want to assess its risk profile.,FinanceTool
+Can you please use your ability to retrieve the latest technical analysis ideas specifically related to Google stock from well-known and trusted traders in the market?,FinanceTool
+Can you use the latest API to fetch the real-time market data of the current supply of Bitcoin Cash?,FinanceTool
+"I'm looking for a cozy cabin with a fireplace, surrounded by picturesque views of the mountains, where I can have a peaceful and serene weekend getaway.",TripTool
+"Could you recommend any business hotels in Yokohama that are conveniently located near major corporate offices or conference centers, offer state-of-the-art business facilities such as meeting rooms and high-speed internet access, and provide amenities specifically catered to business travelers such as business centers, executive lounges, or complimentary breakfast options?",TripTool
+What's the current weather like at JFK airport in New York?,WeatherTool
+I can't believe I wasted my money on that course! Is there a way to find better courses on Coursera?,CourseTool
+Can you provide me with the latest news on Tesla's electric vehicle production?,FinanceTool
+"I need to know the current weather conditions, including temperature, humidity, wind speed, and precipitation, in Sydney, Australia.",WeatherTool
+"I need to find a highly skilled and reputable lawyer who has extensive experience specifically in corporate law, and who is based in Yokohama, Japan.",LawTool
+What does the SEC filing of Amazon reveal about their growth strategy? ,FinanceTool
+Can you give me the latest stock price for Apple Inc.?,FinanceTool
+"Can you provide me with the current market price of Cardano (ADA) in Australian dollars, including any applicable fees or charges?",FinanceTool
+What are the key financial metrics mentioned in Microsoft's latest Earnings Call Transcript?,FinanceTool
+"The penalties imposed upon offenders may include a monetary fine, the amount of which may differ depending on the specific jurisdiction in question as well as the circumstances surrounding the committed violation.",LawTool
+"I want to plan a relaxing beach vacation in Bali with pristine sandy beaches, turquoise waters, and luxurious resorts offering various water sports activities and rejuvenating spa treatments.",TripTool
+I'm planning a road trip in New York City. Can you assist me in finding a rental car?,TripTool
