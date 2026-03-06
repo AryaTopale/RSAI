@@ -136,7 +136,7 @@ Can you guide me in choosing between a MacBook Pro and a Dell XPS 15? I need a l
 Can you assist me by performing a search on haffprice.com to locate the most cost-effective microwave oven available?,ProductSearch
 "I am looking for specific coupons that can be used for grocery shopping, specifically discounts on food items.",Discount
 "I'm looking for a new pair of running shoes, can you recommend me some options?",ProductSearch
-"""I'm considering purchasing the Nikon D7500 DSLR camera. Can you assist me in understanding its pros and cons based on consumer feedback?""",Review
+I'm considering purchasing the Nikon D7500 DSLR camera. Can you assist me in understanding its pros and cons based on consumer feedback?,Review
 I'm angry at my slow laptop. Suggest a high-performance laptop that can handle heavy software.,ProductSearch
 I'm fed up with the limited choices I find when looking for electronic components. Can you show me a wide range of options?,ProductSearch
 "Can you assist me by providing the current lead time and stock status for a particular model of ESP8266 module, including any relevant details?",ProductSearch
@@ -149,7 +149,7 @@ I'm really angry! I've been looking for discounts all day and it's been a total 
 "I need a beginner-friendly electric guitar that is easy to play, suitable for newcomers to the instrument, and provides excellent sound quality for a satisfying playing experience.",Review
 I need a laptop for gaming with high-performance specifications. ,ProductSearch
 I need a new pair of lightweight and breathable running shoes with excellent cushioning and arch support in size 8.5 for women.,ProductSearch
-"""What's the user sentiment towards the Samsung Galaxy Tab S7 based on recent reviews? I'd like to know its strengths and weaknesses before buying.""",Review
+What's the user sentiment towards the Samsung Galaxy Tab S7 based on recent reviews? I'd like to know its strengths and weaknesses before buying.,Review
 I'm planning to travel and I need to book a hotel. Can you find any coupons for hotel bookings?,Discount
 Can you find me a laptop with a 15-inch display and at least 8GB of RAM?,ProductSearch
 I'm specifically looking for some exclusive discounts and promotional deals that can be applied while making online purchases on various popular e-commerce platforms.,Discount
@@ -173,7 +173,7 @@ I'm in need of a professional-grade hair dryer. Can you find one with good revie
 Why is it so complicated to share my cart with others? This app is a disaster!,ShoppingAssistant
 I have a difficult choice to make between the iPhone 12 Pro and the Samsung Galaxy S20. Can you help me break down the differences?,ProductComparison
 Hi! I was wondering where I could find websites or platforms that provide a wide range of discounted prices or exclusive coupon codes for various online stores.,Discount
-"""My friend recommended the Sony WH-1000XM4 headphones. Can you analyze purchasers' reviews and provide an overview of the product's positive and negative aspects?""",Review
+My friend recommended the Sony WH-1000XM4 headphones. Can you analyze purchasers' reviews and provide an overview of the product's positive and negative aspects?,Review
 I need to find a reliable and affordable supplier who specializes in manufacturing and distributing a specific type of Integrated Circuit (IC) with distinct technical specifications and features.,ProductSearch
 "I'm looking for a reliable used car on eBay, can you help me find one?",ProductSearch
 I would greatly appreciate if you could provide me with a comprehensive summary highlighting the advantages and disadvantages of the aforementioned Amazon product.,Review
@@ -243,7 +243,7 @@ Does Best Buy happen to have discounts on their latest laptops?,Discount
 I'm looking for a specific type of tea from Japan. Can you find it for me?,ProductSearch
 This store is ripping me off! Do you have any coupon codes that can help me save?,Discount
 Can you show me how to track my order once I have made a purchase on GoFynd?,ProductSearch
-"To share your cart with a friend on Uniket, you can easily do so by selecting the ""Share Cart"" option located on the Uniket app or website. This feature allows you to generate a unique link that can be shared via various platforms such as email, messaging apps, or social media. By clicking on the shared link, your friend will be directed to your cart on Uniket, where they can view the items you have selected and even make additions or adjustments if desired.",ShoppingAssistant
+"To share your cart with a friend on Uniket, you can easily do so by selecting the Share Cart option located on the Uniket app or website. This feature allows you to generate a unique link that can be shared via various platforms such as email, messaging apps, or social media. By clicking on the shared link, your friend will be directed to your cart on Uniket, where they can view the items you have selected and even make additions or adjustments if desired.",ShoppingAssistant
 Can you search for coupons for my online shopping at eBay?,Discount
 I'm interested in buying a fitness tracker. Can you find me one on haffprice.com?,ProductSearch
 "I want to start a home gym, any workout equipment recommendations from Amazon?",ProductSearch
@@ -427,7 +427,7 @@ I'm looking for a durable and waterproof backpack specifically designed for hiki
 I would like to know if you have any coupon codes available that I can use specifically for my favorite clothing brand.,Discount
 I'm currently searching for a highly-rated vegan restaurant in Osaka that specifically caters to individuals following a plant-based diet and offers a wide range of delicious vegan dishes.,ProductSearch
 I need a new gaming console. What are the options on haffprice.com?,ProductSearch
-"""I'm interested in the Dyson V11 vacuum cleaner. Could you analyze the reviews to help me figure out its benefits and drawbacks?""",Review
+I'm interested in the Dyson V11 vacuum cleaner. Could you analyze the reviews to help me figure out its benefits and drawbacks?,Review
 Can you help me find the best deals and coupons available today?,Discount
 I need a laptop for gaming that has a high refresh rate display and a powerful graphics card.,ProductSearch
 "I'm looking for a reliable online store that sells a wide variety of fitness equipment including treadmills, dumbbells, resistance bands, yoga mats, and exercise bikes.",ProductSearch
@@ -543,12 +543,12 @@ I kindly request assistance in identifying startups in the renewable energy sect
 "Where can I find the latest deals on smartphones in Australia, specifically discounted prices for popular brands such as Apple, Samsung, and Google? Additionally, I would appreciate information on any ongoing promotions or bundle offers available from major retailers or online platforms.",ProductSearch
 Can you find a high-quality camera with Wi-Fi connectivity that allows users to easily transfer photos and videos wirelessly to their devices or upload them directly to social media platforms without the need for additional cables or adapters?,Review
 "Can you assist me in finding Bluetooth earbuds that have the feature of being waterproof, and they should also be priced below $100?",ProductSearch
-"""Can you provide a review analysis for the Xbox Series X? I'd like to know its advantages and disadvantages.""",Review
+Can you provide a review analysis for the Xbox Series X? I'd like to know its advantages and disadvantages.,Review
 I need to buy a wireless headset for my office meetings. Can you recommend a good one?,ProductSearch
 I can't find a good laptop within my budget.  ,ProductSearch
 "I'm looking for a specific book on eBay, can you help me find it?",ProductSearch
 I'm in need of a running shoe that provides excellent support and cushioning. ,ProductSearch
-"To add items to your shopping cart on GoFynd, you can browse through the available products and click on the desired item. Upon selecting the item, you will be directed to its product page where you can choose the desired size, color, and quantity before clicking on the ""Add to Cart"" button to add the item to your shopping cart.",ProductSearch
+"To add items to your shopping cart on GoFynd, you can browse through the available products and click on the desired item. Upon selecting the item, you will be directed to its product page where you can choose the desired size, color, and quantity before clicking on the Add to Cart button to add the item to your shopping cart.",ProductSearch
 How can I filter search results by price range on GoFynd?,ProductSearch
 I'm looking for a new laptop that's suitable for graphic design and has a good battery life.,ProductSearch
 I'm planning to buy some books. Can you help me find any coupon codes for online bookstores or e-readers?,Discount
@@ -711,7 +711,7 @@ Can you help me find a cheap gaming console in Japan?,ProductSearch
 Can you search online and provide me with the current price and availability of a Raspberry Pi 4 in various stores and websites?,ProductSearch
 "I want to buy a digital camera with a high zoom range, preferably with at least 30x optical zoom, to capture clear and detailed shots of distant subjects.",ProductSearch
 "I'm looking for a versatile blender with positive reviews that can effectively blend fruits and vegetables, crush ice, and has multiple speed settings to cater to different blending needs.",Review
-"""I've been looking at the Prolix Quantum Smartwatch, but I'm unsure. Could you analyze the reviews and tell me its benefits and drawbacks?""",Review
+I've been looking at the Prolix Quantum Smartwatch but I'm unsure. Could you analyze the reviews and tell me its benefits and drawbacks?,Review
 "Can you help me find a stylish pair of sneakers from a popular brand, preferably in a size 10 with a white and black color combination, and within a price range of $100 to $150?",ProductSearch
 I'm looking for discounts for a specific beauty retailer. Any suggestions?,Discount
 I'm frustrated with the high prices of fashion items in the market. Can you help me find the best deals on clothing and accessories?,ProductSearch
@@ -739,7 +739,7 @@ I'm looking for a vegan restaurant in Osaka. Can you find one for me?,ProductSea
 "I'm a book lover who is passionate about exploring various genres and authors, always on the lookout for intriguing plots and beautifully crafted narratives that transport me into different worlds and broaden my perspective.",ProductSearch
 Could you help me find a place to buy traditional Japanese pottery?,ProductSearch
 Show me some affordable home theater systems available on haffprice.com.,ProductSearch
-"I'm looking for a specific book titled ""The Da Vinci Code"" by Dan Brown on eBay, published in 2003, can you help me find it?",ProductSearch
+"I'm looking for a specific book titled The Da Vinci Code by Dan Brown on eBay, published in 2003, can you help me find it?",ProductSearch
 I'm searching for a portable Bluetooth speaker with long battery life. Any options?,Review
 Can you guide me on how to find startups that are willing to be acquired?,ProductSearch
 Certainly! Could you kindly assist me in locating the pertinent details such as the current availability and accurate pricing of a Raspberry Pi 4?,ProductSearch
@@ -751,17 +751,17 @@ I want to buy a gift for my friend who loves cooking. Can you help me find some 
 Are there any ongoing promotions for fashion and clothing brands?,Discount
 Can you please assist me by providing detailed information and recommendations on gaming laptops with dedicated graphics cards? I specifically want to search for these laptops on Kakaku.com.,ProductSearch
 I want to personalize a gift for a special occasion and make it meaningful and unique to the recipient.,ShoppingAssistant
-"""I need to buy a new refrigerator. What are consumers saying about the advantages and disadvantages of the latest LG models?""",Review
+I need to buy a new refrigerator. What are consumers saying about the advantages and disadvantages of the latest LG models?,Review
 I want to redecorate my living room. Can you show me some modern furniture options available on Uniket?,ShoppingAssistant
 Is there a way to make my online shopping more seamless? Maybe by showing me a QR code for my cart?,ShoppingAssistant
 I've been doing a lot of online shopping and it's become a bit chaotic. Can you supply a QR code for my cart to help me stay organized?,ShoppingAssistant
 Find me the cheapest laptops available on haffprice.com.,ProductSearch
 "I've had enough of going through Amazon reviews for cameras, can you give me a quick overview of a few options?",Review
 I want to upgrade my kitchen appliances. Are there any promo codes available for appliance stores or online marketplaces?,Discount
-"I can't find the right electronic component for my project. What are my options?"" ",ProductSearch
+"I can't find the right electronic component for my project. What are my options? ",ProductSearch
 Do you have any current coupons or discounts available specifically for popular brands like Nike or Adidas that I can use for my upcoming purchase?,Discount
 I'm looking for a supplier who can provide me with a bulk quantity of resistors. Can you assist me with finding their availability and pricing?,ProductSearch
-"I can't believe how expensive this store is! I need some coupon codes to save some money."" ",Discount
+"I can't believe how expensive this store is! I need some coupon codes to save some money. ",Discount
 "I need assistance in finding a high-quality and reliable laptop that meets my specific requirements and preferences, such as a specific budget range, ensuring that it falls within my financial limitations.",ProductSearch
 "I want to buy a smartphone specifically under $700, and I require assistance in filtering the available options.",ProductSearch
 "I am in need of immediate, comprehensive assistance from an expert in the field of market research and startup acquisition. Specifically, I require your expertise in locating and providing detailed information on a wide range of startups that are currently open and actively seeking acquisition opportunities.",ProductSearch
@@ -810,7 +810,7 @@ Can you recommend a good book to read?,ProductSearch
 Can you suggest a good external hard drive with positive user reviews on Amazon?,Review
 "I need detailed step-by-step guidance and instructions to help me effectively locate a specific product category on the GoFynd website or mobile application, as I am facing difficulties in doing so. Can you provide me with the necessary assistance and support?",ProductSearch
 I'm looking for a reliable online store that sells fitness equipment. Any recommendations?,ProductSearch
-"""I'm planning to upgrade my laptop. Can you summarize the reviews on the Dell XPS range and tell me their good and bad points please?""",Review
+I'm planning to upgrade my laptop. Can you summarize the reviews on the Dell XPS range and tell me their good and bad points please?,Review
 I need a recommendation for a high-quality camera that is popular among photographers on Amazon.,Review
 I'm redecorating my living room and I want to buy a modern sofa. Can you suggest some options?,ProductSearch
 I've added a bunch of items to my online shopping cart and I'm struggling to organize it. Can you assist?,ShoppingAssistant
@@ -831,7 +831,7 @@ I'm searching for a specific brand of headphones. Can you help me locate them on
 "I am looking to purchase a high-quality vacuum cleaner specifically equipped with a HEPA filter, which efficiently eliminates allergens and ensures a cleaner living environment.",ProductSearch
 I'm looking for a fashionable dress for a special occasion. Can you help me find one that suits my style and falls within my budget?,ProductSearch
 "I'm specifically looking for discounts and promotional offers for a well-known beauty retailer that specializes in skincare, makeup, and haircare products.",Discount
-I’m confused between these two headphones - Bose QuietComfort 35 II and Sony WH-1000XM4. Can you help compare?,ProductComparison
+I'm confused between these two headphones - Bose QuietComfort 35 II and Sony WH-1000XM4. Can you help compare?,ProductComparison
 "I'm redecorating my living room and I need a stylish coffee table that complements the existing furniture and color scheme, ideally made from high-quality materials such as solid wood or elegant metal, with a sleek and modern design featuring clean lines and minimalistic details.",ProductSearch
 Could you please provide me with the specific information about the location or platform where I can find the best and most competitive deals on high-quality fitness equipment?,ProductSearch
 "I need to purchase office supplies such as pens, notebooks, printer ink, and paper from the nearest Staples store.",ProductSearch
@@ -855,7 +855,7 @@ Hey Chatbot! I hope you can assist me with my shopping needs. I'm on the hunt fo
 "I can't believe how much it costs to buy a gaming console in Australia, find me a better deal.",ProductSearch
 Can you assist me in finding a smart TV that is budget-friendly yet offers excellent picture quality?,ProductSearch
 I'm redecorating my living room and I need a comfortable sofa within a reasonable price range that preferably comes in a neutral color to match my existing decor.,ProductSearch
-"""Can you help me understand the pros and cons of the new iPhone 13 as per recent customer reviews?""",Review
+Can you help me understand the pros and cons of the new iPhone 13 as per recent customer reviews?,Review
 I need a new smartphone. Can you recommend some options available on GoFynd?,ProductSearch
 I'm planning to buy a new laptop for gaming. Can you recommend some high-performance models?,ProductSearch
 I want a dress for a formal event with a unique design. ,ProductSearch
@@ -869,7 +869,7 @@ Show me some affordable smartphones available in Japan.,ProductSearch
 Can you suggest some hiking boots for me? I am going on a trail that is going to be rocky and slippery.,ProductSearch
 "I need to buy a new coffee machine because my old one stopped working and I rely on coffee to start my day on the right foot, and I also enjoy experimenting with different flavors and brewing methods to enhance my coffee experience.",ProductSearch
 I need to order groceries online. Are there any promo codes available for grocery delivery services or supermarkets?,Discount
-"""I am thinking about buying the Breville Barista Express Espresso Machine. Could you summarize what users are saying about its strengths and weaknesses?""",Review
+I am thinking about buying the Breville Barista Express Espresso Machine. Could you summarize what users are saying about its strengths and weaknesses?,Review
 "I'm looking for the best laptop deals, specifically for high-performance laptops with at least 16GB RAM, a minimum of 512GB SSD storage, and an Intel Core i7 or AMD Ryzen 7 processor.",ProductSearch
 I'm searching for a reliable and durable router with excellent performance and advanced features available for purchase at the most affordable price possible.,ProductSearch
 "I'm looking to buy a variety of clothes, including tops, bottoms, dresses, and accessories, specifically from the renowned retailer, Macy's.",Discount
