@@ -467,7 +467,8 @@ How much is Walmart stock currently?,GetStockPrice
 Acquire 5 shares of Berkshire Hathaway.,ExecuteTrade
 Retrieve the closing prices for ExxonMobil from January 2021 to December 2021.,GetHistoricalData
 What's the overall market sentiment for General Motors?,AnalyzeSentiment
-Calculate the current financial value of my holdings.,CalculatePortfolioValueWhat's the current price of GOOGL?,GetStockPrice
+Calculate the current financial value of my holdings.,CalculatePortfolioValue
+What's the current price of GOOGL?,GetStockPrice
 How much is AAPL trading for right now?,GetStockPrice
 Show me the live price of Microsoft.,GetStockPrice
 What's the latest quote for NVDA?,GetStockPrice
