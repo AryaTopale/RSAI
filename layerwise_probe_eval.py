@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.optim as optim
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,11 +10,14 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 from tqdm import tqdm
 
+
 MODEL_NAME = "Qwen/Qwen2.5-1.5B"
-DATA_PATH = "eval_results.csv"
-PROBE_PATH = "tool_probe.pt"
+
+TRAIN_PATH = "train_results.csv"
+EVAL_PATH = "eval_results.csv"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+
 
 # -------------------------
 # Load model
@@ -37,56 +41,77 @@ model.eval()
 
 
 # -------------------------
-# Load dataset
+# Load datasets
 # -------------------------
 
-df = pd.read_csv(DATA_PATH)
+train_df = pd.read_csv(TRAIN_PATH)
+eval_df = pd.read_csv(EVAL_PATH)
 
-queries = df["query"].tolist()
-labels = df["pred_tool"].tolist()
+train_queries = train_df["query"].tolist()
+train_labels = train_df["pred_tool"].tolist()
 
+eval_queries = eval_df["query"].tolist()
+eval_labels = eval_df["pred_tool"].tolist()
+
+
+# encode labels using TRAIN set
 le = LabelEncoder()
-y = le.fit_transform(labels)
+y_train = le.fit_transform(train_labels)
+y_eval = le.transform(eval_labels)
+
+
+# -------------------------
+# Function: extract hidden states
+# -------------------------
+
+def extract_hidden_states(queries):
+
+    layer_states = None
+
+    for query in tqdm(queries):
+
+        inputs = tokenizer(
+            query,
+            return_tensors="pt",
+            truncation=True,
+            max_length=128
+        ).to(device)
+
+        with torch.no_grad():
+            outputs = model(**inputs)
+
+        hidden_states = outputs.hidden_states
+
+        if layer_states is None:
+
+            n_layers = len(hidden_states)
+            hidden_dim = hidden_states[0].shape[-1]
+
+            layer_states = [[] for _ in range(n_layers)]
+
+        for i in range(n_layers):
+
+            h = hidden_states[i].mean(dim=1).float().cpu().numpy()[0]
+            layer_states[i].append(h)
+
+    layer_states = [np.array(l) for l in layer_states]
+
+    return layer_states
 
 
 # -------------------------
 # Extract hidden states
 # -------------------------
 
-print("Extracting hidden states...")
+print("Extracting TRAIN hidden states...")
+train_layer_states = extract_hidden_states(train_queries)
 
-layer_states = None
-
-for query in tqdm(queries):
-
-    inputs = tokenizer(
-        query,
-        return_tensors="pt",
-        truncation=True,
-        max_length=128
-    ).to(device)
-
-    with torch.no_grad():
-        outputs = model(**inputs)
-
-    hidden_states = outputs.hidden_states
-
-    if layer_states is None:
-
-        n_layers = len(hidden_states)
-        hidden_dim = hidden_states[0].shape[-1]
-
-        layer_states = [[] for _ in range(n_layers)]
-
-    for i in range(n_layers):
-
-        # mean pooling across tokens
-        h = hidden_states[i].mean(dim=1).squeeze(0).float().cpu().numpy()
-
-        layer_states[i].append(h)
+print("Extracting EVAL hidden states...")
+eval_layer_states = extract_hidden_states(eval_queries)
 
 
-layer_states = [np.array(l) for l in layer_states]
+hidden_dim = train_layer_states[0].shape[1]
+num_classes = len(le.classes_)
 
 
 # -------------------------
@@ -104,67 +129,59 @@ class Probe(nn.Module):
 
 
 # -------------------------
-# Load probe checkpoint
-# -------------------------
-
-print("Loading saved probe...")
-
-checkpoint = torch.load(
-    PROBE_PATH,
-    map_location="cpu",
-    weights_only=False
-)
-
-# Handle multiple checkpoint formats
-
-if "state_dict" in checkpoint:
-    state_dict = checkpoint["state_dict"]
-elif "model_state_dict" in checkpoint:
-    state_dict = checkpoint["model_state_dict"]
-else:
-    state_dict = checkpoint
-
-# Infer dimensions automatically
-
-first_weight = list(state_dict.values())[0]
-input_dim = first_weight.shape[1]
-num_classes = first_weight.shape[0]
-
-probe = Probe(input_dim, num_classes)
-probe.load_state_dict(state_dict)
-
-probe.to(device)
-probe.eval()
-
-
-# -------------------------
-# Evaluate layer-wise
+# Train probes + Eval
 # -------------------------
 
 layer_acc = []
 
-print("Evaluating probes on eval set...")
+print("Training probes and evaluating on eval set...")
 
-for layer in range(len(layer_states)):
+for layer in range(len(train_layer_states)):
 
-    X = torch.tensor(
-        layer_states[layer],
+    X_train = torch.tensor(
+        train_layer_states[layer],
         dtype=torch.float32
-    ).to(device)
+    )
+
+    y_train_tensor = torch.tensor(y_train)
+
+    X_eval = torch.tensor(
+        eval_layer_states[layer],
+        dtype=torch.float32
+    )
+
+    probe = Probe(hidden_dim, num_classes)
+
+    optimizer = optim.Adam(probe.parameters(), lr=1e-3)
+    criterion = nn.CrossEntropyLoss()
+    for epoch in range(20):
+
+        logits = probe(X_train)
+
+        loss = criterion(logits, y_train_tensor)
+
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+    # -------------------------
+    # Evaluate probe
+    # -------------------------
 
     with torch.no_grad():
 
-        logits = probe(X)
+        logits = probe(X_eval)
+
         preds = torch.argmax(logits, dim=1)
 
-    acc = accuracy_score(
-        y,
-        preds.cpu().numpy()
-    )
+        acc = accuracy_score(
+            y_eval,
+            preds.numpy()
+        )
 
     layer_acc.append(acc)
 
-    print(f"Layer {layer} accuracy: {acc:.4f}")
+    print(f"Layer {layer} eval accuracy: {acc:.4f}")
 
 
 # -------------------------
@@ -173,7 +190,7 @@ for layer in range(len(layer_states)):
 
 results = pd.DataFrame({
     "layer": list(range(len(layer_acc))),
-    "accuracy": layer_acc
+    "eval_accuracy": layer_acc
 })
 
 results.to_csv(
@@ -193,7 +210,7 @@ plt.figure(figsize=(8,5))
 plt.plot(layer_acc, marker="o")
 
 plt.xlabel("Layer")
-plt.ylabel("Probe Accuracy")
+plt.ylabel("Eval Accuracy")
 plt.title("Layer-wise Tool Prediction Probe Accuracy (Eval Set)")
 
 plt.grid(True)

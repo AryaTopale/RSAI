@@ -1,0 +1,194 @@
+{
+  "description_mismatch": [
+    {
+      "LawTool": "Provide you with the latest weather information."
+    },
+    {
+      "TripTool": "Stay informed with the latest financial updates, real-time insights, and analysis on stocks and cryptocurrencies."
+    },
+    {
+      "FinanceTool": "Unlock a world of knowledge with our learning platform offering courses from providers like Coursera."
+    },
+    {
+      "WeatherTool": "Enables quick search functionality for relevant laws."
+    },
+    {
+      "CourseTool": "Offer discounted hotel and accommodation bookings, along with personalized hotel and product searches, travel planning, image editing, and more."
+    },
+    {
+      "LawTool": "Your personal assistant for creating delicious recipes and meal plans."
+    },
+    {
+      "FinanceTool": "Get live scores, game highlights, and sports news from around the world."
+    },
+    {
+      "WeatherTool": "A tool to help you compose and send electronic mail."
+    },
+    {
+      "TripTool": "Unlock a world of knowledge with our learning platform offering courses from providers like Coursera."
+    },
+    {
+      "FinanceTool": "Offer discounted hotel and accommodation bookings, along with personalized hotel and product searches, travel planning, image editing, and more."
+    }
+  ],
+  "negation_injection": [
+    {
+      "LawTool": "Does not enable search functionality for relevant laws."
+    },
+    {
+      "TripTool": "Unable to offer discounted hotel and accommodation bookings, but provides personalized searches and travel planning."
+    },
+    {
+      "FinanceTool": "Cannot be used to stay informed with the latest financial updates or analysis on stocks and cryptocurrencies."
+    },
+    {
+      "WeatherTool": "Fails to provide you with the latest weather information."
+    },
+    {
+      "CourseTool": "Does not unlock a world of knowledge and has no courses from providers like Coursera."
+    },
+    {
+      "LawTool": "Enables quick search functionality for irrelevant laws only."
+    },
+    {
+      "TripTool": "Offers hotel and accommodation bookings, but not at a discount."
+    },
+    {
+      "FinanceTool": "Provides outdated financial information, with no real-time insights or analysis."
+    },
+    {
+      "TripTool": "Fails to offer discounted hotel and accommodation bookings, and has no travel planning features."
+    },
+    {
+      "FinanceTool": "Cannot be used to stay informed with financial updates or analysis on stocks."
+    }
+  ],
+  "paraphrase": [
+    {
+      "LawTool": "Facilitates rapid searching for applicable legal statutes."
+    },
+    {
+      "TripTool": "Provides reduced-price bookings for hotels and lodging, plus custom searches, trip planning, and photo editing."
+    },
+    {
+      "FinanceTool": "Delivers current financial news, live data, and analysis for stocks and crypto."
+    },
+    {
+      "WeatherTool": "Gives you up-to-date meteorological forecasts and conditions."
+    },
+    {
+      "CourseTool": "Access a vast collection of educational courses from services like Coursera via our learning portal."
+    },
+    {
+      "LawTool": "Allows for the speedy retrieval of pertinent legislation."
+    },
+    {
+      "TripTool": "Book hotels for less, get tailored recommendations, plan travel, and modify images."
+    },
+    {
+      "WeatherTool": "Fetches the most recent weather reports for your area."
+    },
+    {
+      "LawTool": "Quickly find pertinent legal statutes and regulations."
+    },
+    {
+      "TripTool": "Get deals on places to stay, book accommodations, and use tools for trip planning and personalized searches."
+    }
+  ],
+  "noise_injection": [
+    {
+      "LawTool": "Enables qwuick search functionality for relevant laws."
+    },
+    {
+      "TripTool": "Offer discounted hotel and accommodation bookings (since 2015), along with personalized hotel and product searches, travel planning, image editing, and more."
+    },
+    {
+      "FinanceTool": "Stay informed with the latest financial updates, real-time insights, and analysis on stocks and cryptocurrencies... and other things."
+    },
+    {
+      "WeatherTool": "Provide you with the latest weatherrrrrr information."
+    },
+    {
+      "CourseTool": "Unlock a world of knowledge with our 5-star rated learning platform offering courses from providers like Coursera."
+    },
+    {
+      "LawTool": "Enables quick search functionality for all relevant laws. For entertainment purposes only."
+    },
+    {
+      "FinanceTool": "Stay informed with the latest financial updates, real-time insights, and analysis on stocks and cryptocurrencies. Powered by AI."
+    },
+    {
+      "TripTool": "Offer discounted hotel and accommodation bookings, along with personalized hotel and product searches, travel planning, image editing, etc."
+    },
+    {
+      "LawTool": "Enables quick search functionality for... you know... relevant laws. And other things. For sure."
+    },
+    {
+      "TripTool": "Offer discounted hotel and accommodation bookings, beep boop, along with personalized hotel and product searches, blah blah, travel planning, image editing, and more."
+    }
+  ],
+  "vague_description": [
+    {
+      "LawTool": "A tool for finding specific documents."
+    },
+    {
+      "TripTool": "Helps you with your travel needs."
+    },
+    {
+      "FinanceTool": "Provides information about the market."
+    },
+    {
+      "WeatherTool": "Gives you current information."
+    },
+    {
+      "CourseTool": "Use this to learn new things."
+    },
+    {
+      "LawTool": "A helpful search utility."
+    },
+    {
+      "TripTool": "An assistant for planning and booking."
+    },
+    {
+      "FinanceTool": "A tool for getting updates."
+    },
+    {
+      "LawTool": "Find information quickly."
+    },
+    {
+      "TripTool": "Helps with various tasks and offers deals."
+    }
+  ],
+  "description_overload": [
+    {
+      "LawTool": "Enables quick, AI-powered semantic search functionality for relevant local, state, and federal laws, including legislative history, case precedents, and scholarly articles."
+    },
+    {
+      "TripTool": "Offer dynamically-priced discounted hotel and accommodation bookings, along with personalized hotel and product searches, multi-stop itinerary planning, AI-powered image editing, flight status tracking, and local event recommendations."
+    },
+    {
+      "FinanceTool": "Stay informed with the latest financial updates, real-time, low-latency insights, and sentiment analysis on stocks, options, futures, and cryptocurrencies, with integrated portfolio tracking."
+    },
+    {
+      "WeatherTool": "Provide you with the latest weather information, including hyperlocal forecasts, Doppler radar imagery, air quality indexes, and historical climate data."
+    },
+    {
+      "CourseTool": "Unlock a world of knowledge with our adaptive learning platform offering courses, certificates, and degree programs from world-class providers like Coursera, edX, and university partners."
+    },
+    {
+      "LawTool": "Enables quick search functionality for relevant laws, providing full-text access, version comparison, and citation network analysis for comprehensive legal research."
+    },
+    {
+      "TripTool": "Offer discounted hotel and accommodation bookings, along with personalized hotel and product searches, collaborative travel planning, one-click image editing, currency conversion, and translation services."
+    },
+    {
+      "FinanceTool": "Stay informed with the latest financial updates, real-time insights, and technical and fundamental analysis on stocks and cryptocurrencies, including customizable alerts and watchlists."
+    },
+    {
+      "LawTool": "Enables hyper-fast, AI-powered, semantic search functionality for all relevant international, federal, state, and local laws, including historical legal documents, case law, and statutory codes, with integrated citation checking and legal brief generation."
+    },
+    {
+      "TripTool": "Offers globally sourced, deeply discounted hotel, motel, resort, and private accommodation bookings, along with AI-driven personalized hotel and product searches, multi-stage itinerary planning, professional-grade image editing filters, real-time flight tracking, local restaurant reservations, and language translation services."
+    }
+  ]
+}
