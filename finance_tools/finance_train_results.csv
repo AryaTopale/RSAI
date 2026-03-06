@@ -1,0 +1,470 @@
+query,gold_tool,pred_tool,model_output
+What is the current stock price of Google?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 10 shares of Apple stock.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the sentiment around Tesla's recent news.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Calculate the total value of my investment portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the real-time quote for Amazon?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 shares of NVIDIA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch past prices for IBM from 2020 to 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Facebook (Meta)?,AnalyzeSentiment,,We are looking for
+How much is my entire portfolio worth right now?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Current price of Netflix shares?,GetStockPrice,GetStockPrice,GetStockPrice
+I want to buy 5 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the daily closing prices for Salesforce for the last 3 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the investor sentiment for Disney.,AnalyzeSentiment,,We are given the
+Compute the current financial value of my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Tell me the live trading price for Spotify.,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to sell 20 shares of Coca-Cola.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I get the historical volume data for Intel from January to June 2023?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Assess the overall sentiment for Walmart.,AnalyzeSentiment,,We are assessing the
+Show me my total account balance.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Berkshire Hathaway stock trading for?,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 100 shares of Starbucks.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide historical performance data for ExxonMobil for the last 5 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the news sentiment for Boeing?,AnalyzeSentiment,,We are given a
+Give me an update on my portfolio's value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current trading price for GOOGL?,GetStockPrice,,We are given a
+Buy 10 shares of Apple stock.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft from 2022 to 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the overall market sentiment for Amazon?,AnalyzeSentiment,,We are looking for
+Calculate the total value of my investment portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Tesla stock worth right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 units of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the past performance of Nvidia for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the news sentiment for Google.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What's the current worth of my holdings?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Real-time quote for IBM.,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 25 shares of Intel.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch historical prices for Pfizer from 2020-01-01 to 2021-12-31.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Give me the sentiment score for Meta Platforms.,AnalyzeSentiment,,We are given a
+Compute the value of all my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Current price of SPY?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to buy 5 shares of Berkshire Hathaway Class B.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the volume data for Walmart for the past 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+How positive or negative is the news surrounding Disney?,AnalyzeSentiment,,We are looking for
+What is my portfolio's present value?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Live price of AMD stock.,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 100 shares of Boeing.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get price history for General Electric for the last 3 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the market mood for JP Morgan Chase.,AnalyzeSentiment,,We are given a
+Display the current total value of my equities.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Google stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 50 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me Apple's stock performance last month.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Meta Platforms?,AnalyzeSentiment,,We are looking for
+What is my current portfolio worth?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the real-time quote for Microsoft.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 20 units of IBM stock.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Analyze the news sentiment for Pfizer.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Show me the total value of my investments.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is NVIDIA trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+I want to buy 10 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+What was the stock price of Google over the past year?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the general sentiment around Microsoft positive or negative?,AnalyzeSentiment,,We are looking for
+Compute the current worth of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for Amazon (AMZN)?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 100 shares of Microsoft.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve historical data for Microsoft for the last 5 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Get me the sentiment score for Tesla based on recent articles.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+How much is my entire portfolio valued at today?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Get the live price of TSLA.,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to acquire 5 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+How does the market feel about Amazon stock?,AnalyzeSentiment,,We are looking for
+Get the current valuation of my investment account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Google stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 50 shares of Apple.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for IBM for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Meta Platforms?,AnalyzeSentiment,,We are looking for
+What is my current portfolio worth?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the real-time quote for Microsoft.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 100 shares of Microsoft.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch the price trend for Coca-Cola from January to March 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the news sentiment for PayPal.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Calculate the total value of my investments.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon trading at right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Please purchase 20 units of Tesla.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+What was the performance of Disney stock over the past 6 months?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the public mood surrounding Johnson & Johnson.,AnalyzeSentiment,,We are looking for
+Show me the current financial value of my account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for Netflix shares?,GetStockPrice,GetStockPrice,GetStockPrice
+Liquidate my 15 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the historical volume data for ExxonMobil for the last quarter.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Give me the sentiment score for Oracle based on recent articles.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Compute the worth of all my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Give me the current value of NVDA.,GetStockPrice,,We are given the
+Place a sell order for 5 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I see the stock chart for Boeing for the past 5 years?,GetHistoricalData,,We are given a
+How is the market feeling about Walmart?,AnalyzeSentiment,,We are looking for
+What's the total value of my holdings right now?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Tesla stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 10 shares of Apple.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft from 2020 to 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Google?,AnalyzeSentiment,,We are looking for
+Calculate my total portfolio value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon (AMZN) trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 units of NVIDIA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get me the past 6 months' stock prices for Coca-Cola (KO).,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the recent news sentiment for Boeing (BA).,AnalyzeSentiment,,We are given a
+What is the current worth of my investments?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Retrieve the real-time quote for IBM.,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 20 shares of Disney (DIS).,ExecuteTrade,ExecuteTrade,ExecuteTrade
+I need the trading volume for Facebook (META) last quarter.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the overall sentiment for Pfizer (PFE).,AnalyzeSentiment,,We are given a
+Compute the current value of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the live price of Netflix (NFLX)?,GetStockPrice,,We are given a
+Place a sell order for 100 shares of General Electric (GE).,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch the daily closing prices for Apple (AAPL) for the entire year of 2021.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the sentiment around Starbucks (SBUX) positive or negative?,AnalyzeSentiment,,We are given a
+Give me an update on my total account value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the current stock price of AMD.,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a buy order for 5 shares of Costco (COST).,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide historical performance data for Johnson & Johnson (JNJ) over the last 5 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What is the current public opinion on Tesla's stock performance?,AnalyzeSentiment,,We are looking for
+How much is my entire investment portfolio valued at?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current stock price of Apple?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 100 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft from 2022 to 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the current market sentiment for Tesla?,AnalyzeSentiment,,We are looking for
+Calculate the total value of my investment portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 units of NVIDIA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide the past performance data for IBM for the last six months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the recent news articles for Netflix sentiment.,AnalyzeSentiment,,We are given a
+What is the current worth of all my assets?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Tell me the live price of Facebook stock.,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 25 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get the closing prices for Coca-Cola from January to March this year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the general sentiment towards Spotify positive or negative?,AnalyzeSentiment,,We are looking for
+Compute the value of my entire stock holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the real-time quote for Pfizer?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 10 shares of Intel.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch the historical stock prices for Oracle for the entire last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the sentiment score for General Motors.,AnalyzeSentiment,,We are given a
+Show me the total value of my investment account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Current value of Disney stock?,GetStockPrice,CalculatePortfolioValue,CalculatePortfolioValue
+Place an order to buy 75 shares of Starbucks.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Give me the daily price and volume data for Boeing for the last quarter.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Perform a sentiment analysis on recent reports about Chevron.,AnalyzeSentiment,,We are analyzing the
+What is my total portfolio valuation right now?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the current stock price of Apple?,GetStockPrice,GetStockPrice,GetStockPrice
+How much is Google stock right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Tell me the live quote for Microsoft.,GetStockPrice,GetStockPrice,GetStockPrice
+Current price for Tesla (TSLA)?,GetStockPrice,GetStockPrice,GetStockPrice
+What's the real-time value of Amazon stock?,GetStockPrice,,We are looking for
+Buy 100 shares of NVIDIA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Sell 50 units of Coca-Cola (KO).,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Place a buy order for 20 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Execute a sell for 10 shares of JPMorgan Chase.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Purchase 5 shares of Berkshire Hathaway.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical prices for IBM from January 2022 to December 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Get past data for ExxonMobil (XOM) for the last three months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What was the trading volume for Disney (DIS) in Q3 2023?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Fetch stock price history for Pfizer for the year 2020.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Provide past stock data for Intel for the first half of last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Meta Platforms?,AnalyzeSentiment,,We are looking for
+Analyze the current news sentiment for Starbucks.,AnalyzeSentiment,,We are given a
+Is the overall sentiment positive or negative for Procter & Gamble?,AnalyzeSentiment,,We are looking for
+Determine the sentiment score for Johnson & Johnson.,AnalyzeSentiment,,We are given a
+Give me the aggregate market feeling about Visa.,AnalyzeSentiment,,We are looking for
+What is the total current value of my investment portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Calculate the worth of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me my account's current financial standing.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is my entire asset portfolio valued at right now?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Compute the total current value of my equities and assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Apple stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 10 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft from 2021 to 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the market sentiment for Tesla.,AnalyzeSentiment,,We are given the
+What is the current value of my portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get me the past performance of Nvidia for the last 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the news sentiment around AMD positive or negative?,AnalyzeSentiment,,We are given a
+Compute the total worth of my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Retrieve the real-time quote for Coca-Cola.,GetStockPrice,GetStockPrice,GetStockPrice
+I want to purchase 25 shares of Intel.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide historical prices for Disney for the entire year of 2020.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the overall sentiment score for Boeing.,AnalyzeSentiment,,We are given a
+Show me my total account value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for Facebook (Meta Platforms)?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to sell 15 units of Starbucks.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I see the historical volume data for Nike from January 2023 to March 2023?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for JPMorgan Chase based on recent articles?,AnalyzeSentiment,,We are given a
+Calculate the current financial value of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Give me the live stock price of Walmart.,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a buy order for 5 shares of Adobe.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch the historical closing prices for Oracle for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Aggregate and score recent news for Verizon.,AnalyzeSentiment,,We are given the
+How much is my entire investment portfolio worth at this moment?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Apple stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 20 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Tesla from 2021 to 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the market sentiment for Microsoft.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What is the current value of my investment portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Get me the real-time quote for Amazon.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch past prices for NVIDIA for the last 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the sentiment around Meta Platforms.,AnalyzeSentiment,,We are given a
+Calculate the total worth of my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Disney stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+I want to buy 10 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I see the historical performance of Coca-Cola for the past year?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the overall market sentiment for Boeing?,AnalyzeSentiment,,We are given a
+Show me my current portfolio value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the live price of Microsoft?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 5 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the historical trading data for IBM from 2019-01-01 to 2019-12-31.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the news sentiment for Salesforce positive or negative?,AnalyzeSentiment,,We are given a
+Compute the current financial value of my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for TSLA?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to purchase 15 units of SPY.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get me the price history for Walmart over the last three months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Aggregate news sentiment for Pfizer.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What is the combined value of all my stocks and assets?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the price of Tesla stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 10 shares of Apple.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Google stock from 2020 to 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the market sentiment for Amazon.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What is the current value of my investment portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Get the real-time quote for Microsoft.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 shares of NVIDIA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide me with past prices for Netflix for the last month.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the sentiment score for Walmart?,AnalyzeSentiment,,We are given a
+Calculate the total worth of my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is IBM stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+I want to purchase 20 shares of Pfizer.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch the historical trading volume for Coca-Cola from Q1 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the news sentiment positive or negative for Meta?,AnalyzeSentiment,,We are given a
+Display the aggregate value of my stocks.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for Adobe (ADBE)?,GetStockPrice,,We are given a
+Execute a buy order for 5 shares of Salesforce.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the stock chart for Disney from the past year.,GetHistoricalData,,We are given the
+Assess the market's current feeling about Starbucks.,AnalyzeSentiment,,We are assessing the
+Compute my current total portfolio value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Current trading price of Johnson & Johnson?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to sell 10 shares of Intel.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get the closing prices for Boeing between January and March of last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Provide a sentiment analysis for General Electric.,AnalyzeSentiment,,We are given a
+What is the overall financial value of my account?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current stock price of Apple?,GetStockPrice,GetStockPrice,GetStockPrice
+How much is Microsoft stock trading for today?,GetStockPrice,GetStockPrice,GetStockPrice
+Can you give me the real-time quote for Google?,GetStockPrice,GetStockPrice,GetStockPrice
+What's the live price of Tesla?,GetStockPrice,GetStockPrice,GetStockPrice
+Show me the current valuation of Amazon's stock.,GetStockPrice,,We are looking for
+Buy 10 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Sell 50 units of Intel stock.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Place an order to purchase 20 shares of Nvidia.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Execute a sell order for 5 shares of Pfizer.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+I want to buy 15 shares of Starbucks.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical performance of Coca-Cola for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Retrieve past stock data for Disney from 2020 to 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Get the price history for ExxonMobil over the last 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Display the historical chart for Meta Platforms for the past 3 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the market sentiment for Boeing.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What's the current news sentiment around General Electric?,AnalyzeSentiment,,We are looking for
+Provide a sentiment score for Oracle Corporation.,AnalyzeSentiment,,We are given a
+Is the sentiment positive or negative for Bank of America?,AnalyzeSentiment,,We are given a
+Evaluate the recent financial news for Johnson & Johnson.,AnalyzeSentiment,,We are evaluating recent
+What is the total value of my investment portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Calculate the current worth of my entire account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much are all my holdings valued at right now?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the total value of my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Compute the current financial worth of my portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the current price of Google stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 shares of Meta Platforms.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the stock performance of IBM for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Coca-Cola?,AnalyzeSentiment,,We are looking for
+What's my total portfolio worth?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Microsoft stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 25 shares of NVIDIA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+What was Apple's closing price every day in July 2023?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the news sentiment around Tesla.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Show me the current value of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the live quote for AMD.,GetStockPrice,GetStockPrice,GetStockPrice
+I want to buy 100 shares of Starbucks.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get the historical volume data for ExxonMobil from 2020 to 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the market feeling positive or negative about Amazon right now based on news?,AnalyzeSentiment,,We are looking for
+Calculate the total value of my investment account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest stock price for Netflix?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to sell 10 shares of Intel.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch past prices for General Electric over the past 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Give me a sentiment score for JPMorgan Chase.,AnalyzeSentiment,,We are given a
+How much is my entire stock portfolio worth today?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Current value of Amazon shares?,GetStockPrice,CalculatePortfolioValue,CalculatePortfolioValue
+Initiate a buy for 5 shares of Adobe.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Display the stock chart for Boeing from January 1st to March 31st this year.,GetHistoricalData,,We are given a
+What are analysts saying about Microsoft's recent earnings?,AnalyzeSentiment,,We are looking for
+What's the current monetary value of all my assets?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Google stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 10 shares of Apple.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft from 2020 to 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the market sentiment for Tesla.,AnalyzeSentiment,,We are given the
+What is the total value of my investment portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Tell me the live quote for Amazon.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 units of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve past performance data for NVIDIA for the last 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the sentiment around Meta positive or negative right now?,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Compute the current worth of all my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Intel stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to purchase 25 shares of Disney.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I see the daily prices for Ford for Q1 2023?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the market mood for JPMorgan.,AnalyzeSentiment,,We are given the
+What's the total equity in my account?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Get me the real-time price for Pfizer.,GetStockPrice,GetStockPrice,GetStockPrice
+I want to acquire 15 shares of Coca-Cola.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Give me the trading history for Oracle for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+How do financial articles view Boeing currently?,AnalyzeSentiment,,We are looking for
+Show me the value of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the current price of Starbucks?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell all my shares of AT&T.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch past volume data for General Electric for the month of July 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Aggregate and score recent news for Adobe.,AnalyzeSentiment,,We are given a
+Calculate the total current financial value of my account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Apple stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 15 shares of Google.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Microsoft for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the market sentiment for Tesla.,AnalyzeSentiment,,We are given the
+What is the total value of my portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Retrieve the real-time quote for Amazon.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 20 units of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Determine the sentiment for Pfizer based on recent news.,AnalyzeSentiment,,We are given a
+Calculate the current worth of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is NVIDIA stock right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to buy 5 shares of Starbucks.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Give me the daily closing prices for Oracle for the last month.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the overall market sentiment for Intel?,AnalyzeSentiment,,We are given a
+Show me the total financial value of my account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the live price for JPMorgan Chase?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 100 shares of AT&T.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+I need the historical volume data for Coca-Cola for the past quarter.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the news sentiment positive or negative for Disney?,AnalyzeSentiment,,We are given a
+Compute the current value of my investment portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Tell me the current trading price for Visa.,GetStockPrice,GetStockPrice,GetStockPrice
+I want to acquire 50 shares of Walmart.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide the historical performance of ExxonMobil for the last 5 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Score the recent news articles for general sentiment about Boeing.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What is the combined value of all my assets?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of GOOGL?,GetStockPrice,,We are given a
+Buy 50 shares of Apple.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the price history for IBM from 2020 to 2021.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Meta Platforms?,AnalyzeSentiment,,We are looking for
+What is the total value of my portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the real-time trading price for Microsoft.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 100 units of Google stock.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I see past data for Walmart stock for the last month?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the news sentiment for Salesforce.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Calculate my current portfolio worth.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to purchase 25 shares of MSFT.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Determine the general sentiment surrounding Tesla stock based on recent articles.,AnalyzeSentiment,,We are given a
+Show me the current financial value of all my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Get me the live quote for NFLX.,GetStockPrice,GetStockPrice,GetStockPrice
+Initiate a sale of 15 shares of NVDA.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Give me the historical performance of S&P 500 over the past year.,GetHistoricalData,,We are given a
+How positive or negative is the news for Disney?,AnalyzeSentiment,,We are looking for
+How much is my entire investment portfolio worth right now?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest stock price for TSLA?,GetStockPrice,GetStockPrice,GetStockPrice
+I want to buy 5 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the stock data for Intel for the last 5 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Get me a sentiment score for JPMorgan Chase.,AnalyzeSentiment,,We are given a
+Please compute the total value of my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of Google stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 15 shares of Amazon.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Apple from 2022 to 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the sentiment around Tesla.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+What is the current value of my investment portfolio?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Get the real-time quote for Microsoft.,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 100 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch past prices for NVIDIA for the last 6 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the market sentiment for IBM.,AnalyzeSentiment,,We are given a
+Calculate the total worth of my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Disney stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to buy 5 shares of Coca-Cola.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+I need the historical volume data for Boeing for Q1 2023.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the sentiment for General Electric positive or negative?,AnalyzeSentiment,,We are given a
+Show me the overall value of my assets.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for Pfizer?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 25 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the daily closing prices for Starbucks from January 2024 to March 2024.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Provide a sentiment score for Meta Platforms.,AnalyzeSentiment,,We are given a
+Compute the current total value of my equities.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Can you get me the live price for Oracle?,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 50 shares of Intel.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get the performance data for SPY over the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Assess the market feeling about Johnson & Johnson.,AnalyzeSentiment,,We are assessing the
+How much is my entire investment account valued at today?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current price of GOOGL?,GetStockPrice,,We are given a
+How much is Microsoft stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Show me the latest price for Amazon.,GetStockPrice,GetStockPrice,GetStockPrice
+What's the real-time quote for NFLX?,GetStockPrice,GetStockPrice,GetStockPrice
+Can I get the live price for TSLA?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 50 shares of AAPL.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Sell 100 units of NVDA stock.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Purchase 15 shares of Meta.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Place an order to sell 20 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+I want to buy 5 shares of JPM.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the past performance of SPY for the last year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Can I see the trading history for BAC over the past month?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Fetch the historical data for XOM for the last 5 years.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Provide the daily closing prices for WMT from 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Google?,AnalyzeSentiment,,We are looking for
+Analyze the news sentiment for Pfizer.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+Is the sentiment around Netflix positive or negative based on recent articles?,AnalyzeSentiment,,We are given a
+Get me the overall sentiment score for Tesla's recent news.,AnalyzeSentiment,AnalyzeSentiment,AnalyzeSentiment
+How do investors feel about Apple based on financial news?,AnalyzeSentiment,,We are looking for
+What is my current portfolio worth?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Show me the total value of my investments.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Compute the current value of my entire stock portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is my account currently valued at?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Can you calculate the total worth of all my holdings?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the current stock price of Google?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 20 shares of Microsoft.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Apple stock from 2022-01-01 to 2022-12-31.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment around Tesla?,AnalyzeSentiment,,We are given a
+Calculate the total value of my investment portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 50 shares of Netflix.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve past prices for IBM over the last 3 months.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the sentiment for Pfizer based on recent news.,AnalyzeSentiment,,We are given a
+What is the current worth of my holdings?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Give me the live quote for NVIDIA.,GetStockPrice,GetStockPrice,GetStockPrice
+Place an order to buy 10 shares of AMD.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Can I see the closing prices for Coca-Cola during Q1 2023?,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the sentiment for Disney positive or negative?,AnalyzeSentiment,,We are given a
+Show me my overall portfolio value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the real-time price of Facebook stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 100 shares of General Electric.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Get me the stock performance data for Oracle for the past year.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Determine the sentiment score for Bank of America.,AnalyzeSentiment,,We are given a
+Compute the total financial value of my account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Current trading price of Intel?,GetStockPrice,GetStockPrice,GetStockPrice
+I want to purchase 5 shares of Shopify.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide historical volume data for Boeing from last month.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Check the market sentiment for Johnson & Johnson.,AnalyzeSentiment,,We are checking the
+What is the current value of all my assets?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What is the price of Tesla stock?,GetStockPrice,GetStockPrice,GetStockPrice
+Buy 10 shares of Apple.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the historical data for Google for the last month.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the market sentiment for Microsoft?,AnalyzeSentiment,,We are looking for
+Calculate the total value of my portfolio.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Amazon stock trading for right now?,GetStockPrice,GetStockPrice,GetStockPrice
+Sell 50 shares of IBM.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Fetch past prices for Netflix from 2022.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Analyze the recent news for NVIDIA.,AnalyzeSentiment,,We are given a
+What is the current worth of all my assets?,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+Give me the live quote for Disney stock.,GetStockPrice,GetStockPrice,GetStockPrice
+Purchase 20 shares of Coca-Cola.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Provide historical volume data for Intel for the last quarter.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+Is the sentiment for Starbucks positive or negative?,AnalyzeSentiment,,We are given a
+Compute the aggregate value of my investment account.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+What's the latest price for Meta Platforms?,GetStockPrice,GetStockPrice,GetStockPrice
+Execute a sell order for 100 shares of Pfizer.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Show me the stock performance of Ford over the last year.,GetHistoricalData,,We are given the
+Determine the market sentiment for JP Morgan Chase.,AnalyzeSentiment,,We are given a
+Show me my total portfolio value.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue
+How much is Walmart stock currently?,GetStockPrice,GetStockPrice,GetStockPrice
+Acquire 5 shares of Berkshire Hathaway.,ExecuteTrade,ExecuteTrade,ExecuteTrade
+Retrieve the closing prices for ExxonMobil from January 2021 to December 2021.,GetHistoricalData,GetHistoricalData,GetHistoricalData
+What's the overall market sentiment for General Motors?,AnalyzeSentiment,,We are looking for
+Calculate the current financial value of my holdings.,CalculatePortfolioValue,CalculatePortfolioValue,CalculatePortfolioValue

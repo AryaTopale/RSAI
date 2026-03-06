@@ -1,0 +1,7 @@
+{
+    "GetStockPrice": "Retrieves the current real-time trading price for a specified stock ticker symbol.",
+    "ExecuteTrade": "Submits a buy or sell order for a specified number of shares of a given stock.",
+    "GetHistoricalData": "Fetches past price and volume data for a stock over a defined historical date range.",
+    "AnalyzeSentiment": "Aggregates and scores recent financial news articles to determine the overall market sentiment for a company.",
+    "CalculatePortfolioValue": "Computes the total current financial value of all assets and equities currently held in the user's account."
+}
