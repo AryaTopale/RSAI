@@ -5,98 +5,102 @@ import time
 from dotenv import load_dotenv
 from groq import Groq
 
-# Load environment variables (ensure secrets.env is present in the working directory)
 load_dotenv("secrets.env")
-# -------------------------
+
 # Config
-# -------------------------
 API_KEY = os.getenv("GROQ_API_KEY")
 MODEL = "llama-3.1-8b-instant"
 TARGET_PER_TYPE = 80
-SLEEP_BETWEEN_CALLS = 2
+SLEEP_BETWEEN_CALLS = 2.5
 INPUT_FILE = "shopping_tools/shopping_tool_descriptions.json"
-OUTPUT_FILE = "shopping_tools/shopping_tool_perturbations.json"
+OUTPUT_FILE = "shopping_tools/shopping_tool_perturbations_addl.json"
+
 PERTURBATION_TYPES = [
-    "description_mismatch",
+    # "description_mismatch",
+    # "paraphrase",
+    # "vague_description",
+    # "description_overload",
+    # "noise_injection",
     "negation_injection",
-    "paraphrase",
-    "noise_injection",
-    "vague_description",
-    "description_overload",
+    "prefix_noise_injection",
+    "interleaved_noise_injection",
 ]
-# -------------------------
-# Load Original Tools
-# -------------------------
+
+# Load tools
 if not os.path.exists(INPUT_FILE):
     raise FileNotFoundError(f"Input file {INPUT_FILE} not found.")
+
 with open(INPUT_FILE, "r") as f:
     SHOPPING_TOOLS = json.load(f)
-# -------------------------
+
 # Groq Client
-# -------------------------
 if not API_KEY:
-    raise ValueError("GROQ_API_KEY not found in environment. Please check secrets.env.")
+    raise ValueError("GROQ_API_KEY not found in environment.")
+
 client = Groq(api_key=API_KEY)
-# -------------------------
-# Prompt builder
-# -------------------------
+
+# Prompt template
 PROMPT_TEMPLATE = """
-You are helping generate controlled perturbations of tool descriptions for an agent interpretability
-       experiment.
+You are helping generate controlled perturbations of tool descriptions
+for an AI agent interpretability experiment.
 
- Goal:
- Create multiple perturbed versions of tool descriptions so we can study how an AI agent's tool-calling
-       confidence changes under different types of description corruption.
+Tools and Original Descriptions:
+{tools_json}
 
- Tools and Original Descriptions:
- {tools_json}
+Perturbation Type:
+{perturbation_type}
 
- Generate BETWEEN 15 AND 20 variations for EACH of the following perturbation types.
+Definition:
+{perturbation_definition}
 
- 1. description_mismatch
- Swap descriptions between tools while keeping tool names fixed.
+- Generate BETWEEN 10 AND 12 variants.
+- Each variant MUST contain descriptions for ALL tools.
+- Return JSON only.
+- Keep tool names exactly the same as the keys in the input JSON. 
+- Maintain grammatical English. 
+- Avoid repeating earlier phrasing patterns.
 
- 2. negation_injection
- Rewrite descriptions by introducing negations or double-negations while preserving the overall meaning.
+Format:
 
- 3. paraphrase
- Rewrite descriptions using different wording but with the same meaning.
+{{
+ "{perturbation_type}": [
+   {{
+     "ToolA": "...",
+     "ToolB": "...",
+     "ToolC": "...",
+     "ToolD": "...",
+     "ToolE": "..."
+   }}
+ ]
+}}
+"""
 
- 4. noise_injection
- Add irrelevant or distracting sentences while keeping the core meaning intact.
-
- 5. vague_description
- Rewrite descriptions to be more generic and less specific.
-
- 6. description_overload
- Expand descriptions to be longer and more verbose with additional details.
-
- Important constraints:
- - Keep tool names exactly the same as the keys in the input JSON.
- - Maintain grammatical English.
- - Avoid repeating earlier phrasing patterns.
- - Return STRICT JSON only.
-
- Required format:
- {{
- "description_mismatch": [{{...}}, {{...}}],
- "negation_injection": [{{...}}, {{...}}],
- "paraphrase": [{{...}}, {{...}}],
- "noise_injection": [{{...}}, {{...}}],
- "vague_description": [{{...}}, {{...}}],
- "description_overload": [{{...}}, {{...}}]
- }}
-
- Each list must contain 10-12 variants.
- """
+# "description_mismatch": "Swap descriptions between tools while keeping tool names fixed.",
+# "paraphrase": "Rewrite descriptions using different wording but same meaning.",
+# "suffix_noise_injection": "Add irrelevant or distracting sentences but keep core meaning intact.",
+# "vague_description": "Rewrite descriptions to be more generic and less specific.",
+# "description_overload": "Make descriptions longer and more verbose with extra details.",
+PERTURBATION_DEFINITIONS = {
+    "negation_injection": "Rewrite the descriptions by introducing negation or double-negation expressions while preserving the original meaning. The tool capability must remain the same. Do NOT negate the functionality of the tool.",
+    "prefix_noise_injection": "Add irrelevant or distracting sentences at the beginning of the sentence but keep core meaning intact.",
+    "interleaved_noise_injection": "Add irrelevant or distracting sentences interleaved between the existing sentences but keep core meaning intact.",
+}
 
 
 def clean_json(text):
     text = text.strip()
+
     if text.startswith("```"):
-        text = text.split("`")[1]
-        if text.startswith("json"):
-            text = text[4:]
+        lines = text.split("\n")
+
+        if lines[0].startswith("```"):
+            lines = lines[1:]
+
+        if lines and lines[-1].startswith("```"):
+            lines = lines[:-1]
+
+        text = "\n".join(lines)
+
     return text.strip()
 
 
@@ -105,60 +109,71 @@ dataset = {t: [] for t in PERTURBATION_TYPES}
 seen = {t: set() for t in PERTURBATION_TYPES}
 
 
-def enough():
-    return all(len(dataset[t]) >= TARGET_PER_TYPE for t in PERTURBATION_TYPES)
+def add_variants(data, perturbation_type):
+    if perturbation_type not in data:
+        return
 
-
-def add_variants(data):
-    for t in PERTURBATION_TYPES:
-        if t not in data:
+    for variant in data[perturbation_type]:
+        if set(variant.keys()) != set(SHOPPING_TOOLS.keys()):
+            print("Rejected variant (missing tools)")
             continue
-        for variant in data[t]:
-            # Ensure all tools are present in the variant
-            if not all(k in variant for k in SHOPPING_TOOLS):
-                continue
 
-            key = json.dumps(variant, sort_keys=True)
-            if key not in seen[t]:
-                seen[t].add(key)
-                dataset[t].append(variant)
+        key = json.dumps(variant, sort_keys=True)
+
+        if key not in seen[perturbation_type]:
+            seen[perturbation_type].add(key)
+            dataset[perturbation_type].append(variant)
 
 
-iteration = 1
 tools_json_str = json.dumps(SHOPPING_TOOLS, indent=2)
 
-while not enough():
-    print(f"\nGenerating batch {iteration}")
-    try:
-        #   Mix in time to ensure randomness for the model if it supports it via prompt
-        prompt = (
-            PROMPT_TEMPLATE.format(tools_json=tools_json_str)
-            + f"\n\nRandom seed: {iteration + time.time()}"
-        )
+iteration = 1
 
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.9,
-        )
+for perturbation_type in PERTURBATION_TYPES:
+    print(f"\nGenerating perturbations for: {perturbation_type}")
 
-        raw_text = response.choices[0].message.content or ""
-        cleaned = clean_json(raw_text)
-        data = json.loads(cleaned)
+    while len(dataset[perturbation_type]) < TARGET_PER_TYPE:
+        print(f"\nBatch {iteration} | {perturbation_type}")
 
-        add_variants(data)
+        try:
+            prompt = PROMPT_TEMPLATE.format(
+                tools_json=tools_json_str,
+                perturbation_type=perturbation_type,
+                perturbation_definition=PERTURBATION_DEFINITIONS[perturbation_type],
+            )
 
-        for t in PERTURBATION_TYPES:
-            print(f"{t}: {len(dataset[t])}")
+            response = client.chat.completions.create(
+                model=MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.9,
+                top_p=0.95,
+                response_format={"type": "json_object"},
+                max_tokens=4096,
+            )
 
-        iteration += 1
-        time.sleep(SLEEP_BETWEEN_CALLS)
+            raw_text = response.choices[0].message.content
 
-    except Exception as e:
-        print(f"Error: {e}")
-        time.sleep(5)
+            if not raw_text:
+                raise ValueError("Empty response")
 
-#   Finalize and save
+            cleaned = clean_json(raw_text)
+
+            # print("\nRAW OUTPUT SAMPLE:\n", cleaned[:800])
+
+            data = json.loads(cleaned)
+
+            add_variants(data, perturbation_type)
+
+            print(f"{perturbation_type}: {len(dataset[perturbation_type])}")
+
+            iteration += 1
+            time.sleep(SLEEP_BETWEEN_CALLS)
+
+        except Exception as e:
+            print("Error:", e)
+            time.sleep(5)
+
+
 final_dataset = {t: dataset[t][:TARGET_PER_TYPE] for t in PERTURBATION_TYPES}
 
 with open(OUTPUT_FILE, "w") as f:
