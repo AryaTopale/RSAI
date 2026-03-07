@@ -1,0 +1,34 @@
+query,gold_tool,predicted_tool,model_output,confidence
+"Uniket offers a wide range of payment options to cater to users' requests, ensuring convenience and flexibility for online transactions.",ShoppingAssistant,Discount,Discount,0.6592766866087914
+I want to redecorate my living room. Would a modern or traditional design work better?,ShoppingAssistant,ProductComparison,ProductComparison,0.7940853238105774
+I'm organizing a barbecue party and need a good grill. What are some great options for outdoor grills?,ProductSearch,ProductComparison,ProductComparison,0.828993447124958
+"To remove items from your GoFynd shopping cart, you can easily do so by following a few simple steps on the GoFynd website or mobile app.",ProductSearch,ShoppingAssistant,ShoppingAssistant,0.7269106507301331
+Can you help me find the best deals on Uniket?,ShoppingAssistant,Discount,Discount,0.8037856817245483
+"Can you recommend similar products based on the specific features, style, and price range to the one I'm currently viewing on Uniket, taking into account my preferences and previous purchases?",ShoppingAssistant,ProductSearch,ProductSearch,0.8796206116676331
+I need to find the pricing and inventory status for Samsung 1TB SSDs.,ProductSearch,ProductComparison,ProductComparison,0.6914964467287064
+What are the different payment options available on Uniket?,ShoppingAssistant,Discount,Discount,0.5038972459733486
+Does RAZER make the best laptop for gaming on Amazon?,Review,ProductComparison,ProductComparison,0.5701923966407776
+"I want to find a good deal on a smart TV, can you help me compare prices?",ProductComparison,Discount,Discount,0.6801464855670929
+I'm a fashion enthusiast and always on the lookout for the latest fashion trends. Can you show me what's new and trendy in women's fashion on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.8266152044137319
+"I'm looking for a specific brand of headphones with noise-cancellation feature, Bluetooth connectivity, and a built-in microphone for hands-free calling.",ShoppingAssistant,ProductSearch,ProductSearch,0.921209474404653
+Can you recommend similar products to the one I'm currently viewing on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.8324242035547892
+I want to surprise my partner with a new smartwatch. Could you suggest the most popular smartwatches on Amazon and summarize the customer reviews so I can make an informed decision?,Review,ProductSearch,"ProductSearch, Review",0.9727309495210648
+"Can you assist me by providing the current lead time and stock status for a particular model of ESP8266 module, including any relevant details?",ProductSearch,Review,Review,0.7138268053531647
+"Sure, I can definitely assist you in finding coupon codes specifically for Best Buy, a popular electronics retailer.",ShoppingAssistant,Discount,Discount,0.8895277976989746
+"This app has too many items, surprise me with good hidden gem products.",ShoppingAssistant,ProductSearch,ProductSearch,0.9858624140421549
+"I want to upgrade my kitchen appliances with modern, energy-efficient models that include a new refrigerator, stove, dishwasher, and microwave.",ProductSearch,ProductComparison,ProductComparison,0.8307305797934532
+I want to personalize a gift for a special occasion and make it meaningful and unique to the recipient.,ShoppingAssistant,ProductSearch,ProductSearch,0.7197317183017731
+Could you update me when the prices of the Samsung Watch 4 drops below $200?,ShoppingAssistant,Discount,Discount,0.6068888492882252
+How do I filter my search results by price range on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.8500052491823832
+"I'm looking for a discounted smartwatch with advanced health tracking features, durable build quality, water resistance up to 50 meters, GPS functionality, long battery life of at least 5 days, compatible with both iOS and Android devices, and a sleek design.",ProductSearch,Discount,Discount,0.6523116156458855
+Can you assist me in finding a laptop within my specific budget range while also ensuring it has positive reviews from previous users?,ProductSearch,ProductComparison,ProductComparison,0.7898510582745075
+I'm planning a hiking trip and need to buy some outdoor gear. Can you recommend some durable and waterproof products from Decathlon that I must use?,ShoppingAssistant,ProductSearch,ProductSearch,0.7162416502833366
+I'm looking to buy some new clothes for a special occasion. Can you help me find something unique and stylish for women on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.8430716792742411
+I need to find a gift for my friend's birthday. Can you suggest any trending tech gadgets available on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.6940774917602539
+How can I search for a specific product on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.7842863897482554
+"I need a coffee machine specifically designed for office use that can brew multiple cups at once. Additionally, I am looking for the best options available on the market that fall within my budget of $200.",ProductSearch,ProductComparison,ProductComparison,0.8379652202129364
+Can you please provide me with a recommendation for a high-quality camera that is currently popular among professional photographers on Amazon?,Review,ProductSearch,ProductSearch. The,0.751353420317173
+I'm currently searching for a highly-rated vegan restaurant in Osaka that specifically caters to individuals following a plant-based diet and offers a wide range of delicious vegan dishes.,ProductSearch,Review,Review,0.582721970975399
+How to filter your search results by price range on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.8450547059377035
+"Can you help me find a comprehensive and detailed cookbook specifically focused on vegetarian recipes, containing a wide variety of plant-based dishes suitable for different diets and tastes?",ProductSearch,Review,Review,0.7704511433839798
+"I'm so frustrated, eBay is so expensive! Any suggestions?",ProductSearch,Discount,Discount,0.8447272181510925
