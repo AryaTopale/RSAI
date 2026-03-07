@@ -1,0 +1,85 @@
+query,gold_tool,predicted_tool,model_output,confidence
+What's the user sentiment towards the Samsung Galaxy Tab S7 based on recent reviews? I'd like to know its strengths and weaknesses before buying.,Review,,We are given a,0.6827044896781445
+Can you provide me with the current list of top-rated smartphones available on Amazon?,Review,ProductSearch,ProductSearch,0.5878883004188538
+"Uniket offers a wide range of payment options to cater to users' requests, ensuring convenience and flexibility for online transactions.",ShoppingAssistant,ProductSearch,ProductSearch,0.5446176752448082
+I want to redecorate my living room. Would a modern or traditional design work better?,ShoppingAssistant,ProductSearch,ProductSearch,0.6423023194074631
+Why is it so complicated to share my cart with others? This app is a disaster!,ShoppingAssistant,,We are given a,0.612807109951973
+Could you compare the customer reviews of different shoe brands and recommend the most comfortable one?,Review,,"First, the user",0.766853354871273
+"To remove items from your GoFynd shopping cart, you can easily do so by following a few simple steps on the GoFynd website or mobile app.",ProductSearch,,We are given a,0.7199166193604469
+What are the different payment options available on Uniket that users can choose from for their purchases?,ShoppingAssistant,,Let me think.,0.5746910944581032
+I'm interested in the Dyson V11 vacuum cleaner. Could you analyze the reviews to help me figure out its benefits and drawbacks?,Review,,We are given a,0.731449618935585
+"Based on users' requests, could you please analyze and evaluate the reviews of multiple gaming laptops, taking into consideration their overall performance, and finally provide a specific recommendation for a gaming laptop that stands out for its exceptional performance?",Review,,We are given a,0.6051918044686317
+"I'm so frustrated with this shopping app, it's so hard to search for products and manage my cart!",ShoppingAssistant,,We are given a,0.7407424226403236
+"To share your cart with a friend on Uniket, you can easily do so by selecting the Share Cart option located on the Uniket app or website. This feature allows you to generate a unique link that can be shared via various platforms such as email, messaging apps, or social media. By clicking on the shared link, your friend will be directed to your cart on Uniket, where they can view the items you have selected and even make additions or adjustments if desired.",ShoppingAssistant,,We are given a,0.6251956038177013
+"I'm looking for a versatile blender with positive reviews that can effectively blend fruits and vegetables, crush ice, and has multiple speed settings to cater to different blending needs.",Review,ProductSearch,ProductSearch,0.5678443163633347
+I've been looking at the Prolix Quantum Smartwatch but I'm unsure. Could you analyze the reviews and tell me its benefits and drawbacks?,Review,,We are given a,0.7323606573045254
+Can you help me find the best deals on Uniket?,ShoppingAssistant,Discount,Discount,0.5585834980010986
+Is the Pixel 5A a budget-friendly smartphone with a good camera?,Review,ProductSearch,ProductSearch,0.5829417258501053
+"How good is the HP Pavilion Gamecore, specifically considering the minimum requirements of an Intel i7 processor, 16GB RAM, and a dedicated NVIDIA graphics card for optimal gaming performance?",Review,ProductComparison,ProductComparison,0.5733851008117199
+"I'm looking for a stylish and functional smartwatch with heart rate monitoring that has the ability to track my fitness activities, receive notifications from my smartphone, and has a long battery life. How good is the Apple Watch for that?",Review,ProductComparison,ProductComparison,0.5451820641756058
+"Can you recommend similar products based on the specific features, style, and price range to the one I'm currently viewing on Uniket, taking into account my preferences and previous purchases?",ShoppingAssistant,ProductSearch,ProductSearch,0.6906203702092171
+I need to find the pricing and inventory status for Samsung 1TB SSDs.,ProductSearch,ProductComparison,ProductComparison,0.5001510716974735
+What are the different payment options available on Uniket?,ShoppingAssistant,,We are given a,0.6507255360484123
+Does RAZER make the best laptop for gaming on Amazon?,Review,,We are given a,0.5829342603683472
+Can you please provide me with a step-by-step explanation of how I can effectively track my order status on Uniket's website or app?,ShoppingAssistant,,We are given a,0.6932632178068161
+I'm a fashion enthusiast and always on the lookout for the latest fashion trends. Can you show me what's new and trendy in women's fashion on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.6250240802764893
+"I'm looking for a specific brand of headphones with noise-cancellation feature, Bluetooth connectivity, and a built-in microphone for hands-free calling.",ShoppingAssistant,ProductSearch,ProductSearch,0.6508214995265007
+"To remove an item from your cart on Uniket, you can simply follow these steps: first, log in to your Uniket account, then navigate to the shopping cart section by clicking on the cart icon. Once on the cart page, locate the specific item you wish to remove, and next to it, you should find a remove or delete button. Click on this button to initiate the removal process, and the item will be successfully eliminated from your Uniket cart.",ShoppingAssistant,,We are given a,0.7582375481724739
+Can you recommend similar products to the one I'm currently viewing on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.6368494778871536
+"Is the Yamaha F310 a beginner-friendly electric guitar that is easy to play, with excellent sound quality for a satisfying playing experience.",Review,ProductSearch,ProductSearch,0.5833508856594563
+I want to surprise my partner with a new smartwatch. Could you suggest the most popular smartwatches on Amazon and summarize the customer reviews so I can make an informed decision?,Review,,"First, the user",0.779745377600193
+Is the Nikon Mark 4 popular among photographers on Amazon.,Review,ProductSearch,ProductSearch,0.5504494793713093
+"Can you assist me by providing the current lead time and stock status for a particular model of ESP8266 module, including any relevant details?",ProductSearch,,"First, let's",0.6372628882527351
+What are people's experiences using the Bose Studio speakers?,Review,,We are looking for,0.7268560454249382
+I'm looking for a high-quality blender that meets my blending needs. Please recommend the top-rated blenders on Amazon and provide a summary of their reviews to help me make a choice.,Review,ProductComparison,ProductComparison,0.4280291497707367
+"Sure, I can definitely assist you in finding coupon codes specifically for Best Buy, a popular electronics retailer.",ShoppingAssistant,Discount,Discount,0.7450655028223991
+I'm really angry! I've been looking for discounts all day and it's been a total waste of time!,Discount,,We are given a,0.6959866657853127
+"This app has too many items, surprise me with good hidden gem products.",ShoppingAssistant,ProductSearch,ProductSearch,0.6030379012227058
+"Please provide me with a comprehensive and detailed analysis outlining the advantages and disadvantages of the most recent iPhone models, including their key features, performance, design, and any potential drawbacks.",Review,,The user is asking,0.7305220626294613
+Can you explain how to track my order status on Uniket?,ShoppingAssistant,,We are not a,0.5639254599809647
+"I can't believe how poorly designed this shopping platform is, show me me last 10 orders.",ShoppingAssistant,,We are given a,0.7396553978323936
+I'm considering purchasing the Nikon D7500 DSLR camera. Can you assist me in understanding its pros and cons based on consumer feedback?,Review,,We are given a,0.6799786537885666
+I want to personalize a gift for a special occasion and make it meaningful and unique to the recipient.,ShoppingAssistant,ProductSearch,ProductSearch,0.6467032954096794
+Could you update me when the prices of the Samsung Watch 4 drops below $200?,ShoppingAssistant,,Let me think.,0.5743228793144226
+"Could you analyze the customer reviews for different laptops under $1000 and provide a detailed report including information on performance, durability, battery life, display quality, portability, and overall user satisfaction?",Review,,"First, the user",0.6942239217460155
+"I can't stand reading countless Amazon reviews, can you help me if the Samsung Frame TV is a good buy?",Review,,Let me think.,0.598645031452179
+How do I filter my search results by price range on Uniket?,ShoppingAssistant,,We are given a,0.6493430584669113
+"I'm looking for a discounted smartwatch with advanced health tracking features, durable build quality, water resistance up to 50 meters, GPS functionality, long battery life of at least 5 days, compatible with both iOS and Android devices, and a sleek design.",ProductSearch,,Let me think.,0.558357734233141
+Can you find me a reliable online store that sells secondhand electronics in Japan?,ProductSearch,,We are looking for,0.727391816675663
+How reliable is the Nescafe automated coffee machine?,Review,,We are looking for,0.6157797910273075
+List out 5 star review of the Sandisk 1TB Hard Disk,Review,,We are given a,0.650711365044117
+I'm planning a hiking trip and need to buy some outdoor gear. Can you recommend some durable and waterproof products from Decathlon that I must use?,ShoppingAssistant,ProductSearch,ProductSearch,0.5714995041489601
+"Can you thoroughly analyze and evaluate the reviews of various SSDs, taking into consideration factors such as performance, reliability, durability, storage capacity, and user satisfaction, and provide a precise recommendation declaring the absolute best SSD available in the market?",Review,,We are given a,0.6112077347934246
+"I'm sick of reading Amazon reviews for laptops, how good is the M5 Macbook Air?",Review,ProductComparison,ProductComparison,0.4732232131063938
+I'm looking to buy some new clothes for a special occasion. Can you help me find something unique and stylish for women on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.561344251036644
+I'm planning to upgrade my laptop. Can you summarize the reviews on the Dell XPS range and tell me their good and bad points please?,Review,,We are given a,0.6740851290524006
+How many stars does the xyz office chair have?,Review,,We are looking for,0.6263818368315697
+"To enable sharing your cart with a friend on Uniket, you can easily generate a QR code by following these steps:",ShoppingAssistant,,We are given a,0.772338829934597
+I need to find a gift for my friend's birthday. Can you suggest any trending tech gadgets available on Uniket?,ShoppingAssistant,ProductSearch,ProductSearch,0.5804777443408966
+Can you suggest a reliable coffee machine with good customer reviews on Amazon?,Review,,"First, the user",0.7577947564423084
+"Could you carefully analyze and compare the extensive customer reviews of various shoe brands, taking into account factors like the material quality, durability, design, and overall satisfaction, in order to provide a personalized and detailed recommendation for the most comfortable shoe brand that best suits my preferences and requirements?",Review,,"First, the user",0.6980520896613598
+How can I search for a specific product on Uniket?,ShoppingAssistant,,We are given a,0.5794224143028259
+Can you please provide me with a recommendation for a high-quality camera that is currently popular among professional photographers on Amazon?,Review,ProductSearch,ProductSearch,0.6377850696444511
+"I'm so angry! Today best deals, I can't find any good discounts anywhere!",Discount,,We are given a,0.6958419792354107
+I need assistance in changing my shipping address specifically for my order on Uniket. Can you please guide me on where exactly I can make this change?,ShoppingAssistant,,We are given a,0.6619497984647751
+How well recommended is the 'Wings of Fire' book?,Review,,We are given a,0.5929838195443153
+List out the real life user experience of the Garmin Smart watch,Review,,We are given a,0.6550934463739395
+I would greatly appreciate if you could provide me with a comprehensive summary highlighting the advantages and disadvantages of the aforementioned Amazon product.,Review,,We are given a,0.7349524609744549
+How do I remove an item from my cart on Uniket?,ShoppingAssistant,,We are given a,0.652700312435627
+I need to buy a new refrigerator. What are consumers saying about the advantages and disadvantages of the latest LG models?,Review,,We are given a,0.6818965151906013
+I'm overwhelmed by the number of items in my cart. How can I manage my online purchases?,ShoppingAssistant,,Let me think.,0.5771790370345116
+Can you show me how to add items to my cart on Uniket?,ShoppingAssistant,,We are given a,0.6210485249757767
+I'm currently searching for a highly-rated vegan restaurant in Osaka that specifically caters to individuals following a plant-based diet and offers a wide range of delicious vegan dishes.,ProductSearch,,We are given a,0.6341472007334232
+What are people's opinions on the Boat 512s?,Review,,We are looking for,0.723143458366394
+I'm redecorating my living room and need a new sofa. Do IKEA sofas have good comments?,Review,,Let me think.,0.565681304782629
+"I'm looking to save some money while shopping online by finding discount codes, comparing prices from different websites, and taking advantage of any special promotions or deals available.",Discount,,Let me think.,0.4521253928542137
+How to filter your search results by price range on Uniket?,ShoppingAssistant,,We are given a,0.622881107032299
+"What do users say about the sound quality, battery life, and reliability of the Bose QC45?",Review,,Let me think.,0.5599710159003735
+Could you please provide a detailed summary of the advantages and disadvantages of this particular SSD model based on users' requests and feedback?,Review,,Let me analyze the,0.6024738661944866
+"How does the Apple Watch fare in terms of features, accuracy, and customer feedback?",Review,,Let me think.,0.5059323012828827
+How many speed settings does the Usha 3 blender have?,Review,ProductComparison,ProductComparison,0.46775129809975624
+Do you have any startups for sale in the e-commerce sector?,ProductSearch,,We are not a,0.5828210189938545
+Could you provide a summary of the pros and cons for Intel 660p?,Review,,We are given a,0.6332748420536518
+"I'm so frustrated, eBay is so expensive! Any suggestions?",ProductSearch,,Let me think.,0.5874428674578667
+I seem to have lost track of everything I've put in my cart. Is there a way I could manage it more efficiently?,ShoppingAssistant,,We are given a,0.7252925969660282
+Can you compare the reviews of different SSDs and tell me which one is the best?,Review,,Let me think.,0.5192149132490158

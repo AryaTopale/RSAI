@@ -3,8 +3,13 @@ import json
 import numpy as np
 import pandas as pd
 import torch
+from huggingface_hub import login
+from kaggle_secrets import UserSecretsClient
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
+
+user_secrets = UserSecretsClient()
+login(user_secrets.get_secret("HUGGINGFACE_ACCESS_TOKEN"))
 
 # --- Configuration ---
 MODEL_NAME = "Qwen/Qwen3-4B-Thinking-2507"
@@ -36,18 +41,18 @@ with open(PERTURBATIONS_PATH) as f:
 perturbation_types = [
     "description_mismatch",
     "paraphrase",
-    # "vague_description",
-    # "description_overload",
-    # "noise_injection",
-    # "negation_injection",
-    # "prefix_noise_injection",
-    # "interleaved_noise_injection",
+    "negation_injection",
+    "vague_description",
+    "description_overload",
+    "suffix_noise_injection",
+    "prefix_noise_injection",
+    "interleaved_noise_injection",
 ]
 
 
 def run_eval(tool_desc_dict):
     """
-    Runs inference using generation (like the reference code).
+    Runs inference using generation.
     Returns accuracy and mean confidence.
     """
 
@@ -74,7 +79,7 @@ Valid answers:
 {", ".join(tool_list)}
 """
 
-    for _, row in df_balanced.iterrows():
+    for i, row in df_balanced.iterrows():
         query = row["Query"]
         gold_tool = row["Tool"]
 
@@ -98,39 +103,26 @@ Answer:
                 pad_token_id=tokenizer.eos_token_id,
             )
 
-        # -------------------------
-        # Extract generated tokens
-        # -------------------------
         generated_tokens = outputs.sequences[0][inputs["input_ids"].shape[1] :]
 
         decoded = tokenizer.decode(generated_tokens, skip_special_tokens=True).strip()
         decoded = decoded.split("\n")[0].strip()
 
-        # -------------------------
-        # Map generated text to tool
-        # -------------------------
         pred_tool = None
         for t in tool_list:
             if t.lower() in decoded.lower():
                 pred_tool = t
                 break
 
-        # -------------------------
-        # Compute confidence
-        # -------------------------
         token_probs = []
-
-        for i, token_id in enumerate(generated_tokens):
-            probs = torch.softmax(outputs.scores[i], dim=-1)
+        for j, token_id in enumerate(generated_tokens):
+            probs = torch.softmax(outputs.scores[j], dim=-1)
             prob = probs[0, token_id].item()
             token_probs.append(prob)
 
         confidence = np.mean(token_probs) if token_probs else 0
         confidences.append(confidence)
 
-        # -------------------------
-        # Accuracy check
-        # -------------------------
         if pred_tool == gold_tool:
             correct_count += 1
         else:
@@ -144,8 +136,7 @@ Answer:
                 }
             )
 
-    # save errors
-    if len(all_errors) > 0:
+    if all_errors:
         pd.DataFrame(all_errors).to_csv("shopping_tool_errors.csv", index=False)
 
     accuracy = correct_count / len(df_balanced)
