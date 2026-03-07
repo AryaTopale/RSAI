@@ -5,7 +5,7 @@ Can you provide me with the current list of top-rated smartphones available on A
 "Uniket offers a wide range of payment options to cater to users' requests, ensuring convenience and flexibility for online transactions.",ShoppingAssistant
 "Could you provide me with more information regarding your request for a blue dress for a wedding? Specifically, I'd like to know where you would like to find these options from different stores.",ProductSearch
 "Hey Chatbot! I'm a shopaholic and I'm always looking for the hottest deals and discounts. Can you provide me with some irresistible coupons from my go-to online stores like Macy's, Kohl's, and Nordstrom?",Discount
-I want to redecorate my living room. Can you show me some modern furniture options available on Uniket?,ShoppingAssistant
+I want to redecorate my living room. Would a modern or traditional design work better?,ShoppingAssistant
 I'm organizing a barbecue party and need a good grill. What are some great options for outdoor grills?,ProductSearch
 Why is it so complicated to share my cart with others? This app is a disaster!,ShoppingAssistant
 Could you compare the customer reviews of different shoe brands and recommend the most comfortable one?,Review
@@ -20,7 +20,7 @@ I would like to know if you have any coupon codes available that I can use speci
 "I'm so frustrated with this shopping app, it's so hard to search for products and manage my cart!",ShoppingAssistant
 Are there any current promo codes available for Target that users can utilize to receive discounts or special offers on their purchases?,Discount
 "I'm looking for unique gifts from Japan that reflect the country's rich cultural heritage, such as traditional ceramics, intricately designed paper crafts, authentic Japanese street fashion, specialized tea sets, or handcrafted wooden products.",ProductSearch
-"I'm tired of browsing through Amazon reviews for smartphones, can you help me compare some models?",Review
+"I'm tired of browsing through Amazon reviews for smartphones, can you help me compare some models?",ProductComparison
 "I want to buy a new laptop, but I'm on a tight budget. Do you have any coupon codes for electronics stores?",Discount
 "To share your cart with a friend on Uniket, you can easily do so by selecting the Share Cart option located on the Uniket app or website. This feature allows you to generate a unique link that can be shared via various platforms such as email, messaging apps, or social media. By clicking on the shared link, your friend will be directed to your cart on Uniket, where they can view the items you have selected and even make additions or adjustments if desired.",ShoppingAssistant
 I've added a bunch of items to my online shopping cart and I'm struggling to organize it. Can you assist?,ShoppingAssistant
@@ -29,11 +29,11 @@ I've added a bunch of items to my online shopping cart and I'm struggling to org
 I've been looking at the Prolix Quantum Smartwatch but I'm unsure. Could you analyze the reviews and tell me its benefits and drawbacks?,Review
 Can you help me find the best deals on Uniket?,ShoppingAssistant
 I am looking for a waterproof fitness tracker that can withstand water submersion and track my fitness activities effectively. Can you please provide me with some recommendations or suggestions?,ProductSearch
-Can you help me find a budget-friendly smartphone with a good camera?,Review
+Is the Pixel 5A a budget-friendly smartphone with a good camera?,Review
 I'm confused between these two headphones - Bose QuietComfort 35 II and Sony WH-1000XM4. Can you help compare?,ProductComparison
-"Can you find the best laptop for gaming on Amazon, specifically considering the minimum requirements of an Intel i7 processor, 16GB RAM, and a dedicated NVIDIA graphics card for optimal gaming performance?",Review
+"How good is the HP Pavilion Gamecore, specifically considering the minimum requirements of an Intel i7 processor, 16GB RAM, and a dedicated NVIDIA graphics card for optimal gaming performance?",Review
 "I'm looking for a pair of running shoes in size 9.5, preferably in black color with good arch support.",ProductSearch
-"I'm looking for a stylish and functional smartwatch with heart rate monitoring that has the ability to track my fitness activities, receive notifications from my smartphone, and has a long battery life.",Review
+"I'm looking for a stylish and functional smartwatch with heart rate monitoring that has the ability to track my fitness activities, receive notifications from my smartphone, and has a long battery life. How good is the Apple Watch for that?",Review
 This is ridiculous! I refuse to pay full price. Find me some coupons now! ,Discount
 Can you help me find running shoes from Nike or Adidas in black color with size 9 and under $100?,ProductSearch
 "Could you kindly assist me in locating the most outstanding deals and coupons that are currently available today, with the intention of receiving assistance?",Discount
@@ -45,31 +45,31 @@ I'm planning a hiking trip and need a durable backpack. Can you suggest some opt
 "Can you find me a stylish and versatile handbag that is made of high-quality materials and has a long lifespan, all while staying within my budget of $200?",ProductSearch
 What are the different payment options available on Uniket?,ShoppingAssistant
 Can you please provide me with a variety of coupons that I can use specifically for discounts on beauty and skincare products?,Discount
-Can you find the best laptop for gaming on Amazon?,Review
-"I want to find a good deal on a smart TV, can you help me compare prices?",ProductSearch
+Does RAZER make the best laptop for gaming on Amazon?,Review
+"I want to find a good deal on a smart TV, can you help me compare prices?",ProductComparison
 Can you please provide me with a step-by-step explanation of how I can effectively track my order status on Uniket's website or app?,ShoppingAssistant
 I'm a fashion enthusiast and always on the lookout for the latest fashion trends. Can you show me what's new and trendy in women's fashion on Uniket?,ShoppingAssistant
 "I'm looking for a specific brand of headphones with noise-cancellation feature, Bluetooth connectivity, and a built-in microphone for hands-free calling.",ShoppingAssistant
 Do you have any current coupons or discounts available specifically for popular brands like Nike or Adidas that I can use for my upcoming purchase?,Discount
 I'm about to check out my cart on Walmart. Can you check if there are any last-minute deals?,Discount
 I need to buy a thoughtful and personalized gift for my childhood friend who loves music and cooking as she is celebrating her graduation from culinary school next month.,ProductSearch
-"I'm planning to make a purchase at a furniture store and I would like assistance in choosing the right items that match my style preferences and budget. Additionally, I would appreciate information on any ongoing promotions or discounts available.",Discount
+I would appreciate information on any ongoing promotions available at a furniture store for items that match my preferences.,Discount
 "To remove an item from your cart on Uniket, you can simply follow these steps: first, log in to your Uniket account, then navigate to the shopping cart section by clicking on the cart icon. Once on the cart page, locate the specific item you wish to remove, and next to it, you should find a remove or delete button. Click on this button to initiate the removal process, and the item will be successfully eliminated from your Uniket cart.",ShoppingAssistant
 Can you recommend similar products to the one I'm currently viewing on Uniket?,ShoppingAssistant
-"I need a beginner-friendly electric guitar that is easy to play, suitable for newcomers to the instrument, and provides excellent sound quality for a satisfying playing experience.",Review
+"Is the Yamaha F310 a beginner-friendly electric guitar that is easy to play, with excellent sound quality for a satisfying playing experience.",Review
 I want to surprise my partner with a new smartwatch. Could you suggest the most popular smartwatches on Amazon and summarize the customer reviews so I can make an informed decision?,Review
-I need a recommendation for a high-quality camera that is popular among photographers on Amazon.,Review
-"Can you find me the best deals on smartphones available on Kakaku.com, including both new and used models, with different price ranges and specifications, from top brands like Apple, Samsung, and Huawei?",ProductSearch
+Is the Nikon Mark 4 popular among photographers on Amazon.,Review
+"Can you find me the best deals on smartphones available on Kakaku.com, including both new and used models, with different price ranges and specifications, from top brands like Apple, Samsung, and Huawei?",Discount
 "Can you assist me by providing the current lead time and stock status for a particular model of ESP8266 module, including any relevant details?",ProductSearch
 I'm considering buying a new car but am stuck between the 2021 Honda CR-V and the 2021 Toyota RAV4 which one should I go with?,ProductComparison
-I'm searching for a portable Bluetooth speaker with long battery life that can provide hours of uninterrupted playback without needing frequent recharging.,Review
+What are people's experiences using the Bose Studio speakers?,Review
 Is there a way to make my online shopping more seamless? Maybe by showing me a QR code for my cart?,ShoppingAssistant
 "and I need recommendations on furniture, color schemes, and lighting options that would create a cozy and modern atmosphere.",ProductSearch
 I'm in need of a professional-grade hair dryer for my salon that is capable of providing powerful airflow and consistent heat to efficiently dry and style various hair types.,ProductSearch
 I'm looking for a high-quality blender that meets my blending needs. Please recommend the top-rated blenders on Amazon and provide a summary of their reviews to help me make a choice.,Review
-"This app is useless, I can't even find the products I want to buy!",ShoppingAssistant
+"Sure, I can definitely assist you in finding coupon codes specifically for Best Buy, a popular electronics retailer.",ShoppingAssistant
 I'm really angry! I've been looking for discounts all day and it's been a total waste of time!,Discount
-"I need assistance in changing my shipping address on Uniket, where can I do that?",ShoppingAssistant
+"This app has too many items, surprise me with good hidden gem products.",ShoppingAssistant
 "Sure, I can definitely assist you in finding coupon codes specifically for Best Buy, a popular electronics retailer.",Discount
 I'm furious at these prices! Can you give me some coupon codes to lower the total?,Discount
 I'm in search of the best online deals available. Can you assist me with finding coupons and discounts?,Discount
@@ -78,19 +78,19 @@ I’m trying to choose a mattress. Can you compare the Purple mattress with Casp
 "Please provide me with a comprehensive and detailed analysis outlining the advantages and disadvantages of the most recent iPhone models, including their key features, performance, design, and any potential drawbacks.",Review
 Can you help me decide between the Canon EOS R6 and the Nikon Z6 II? I need advice on which one is a better buy.,ProductComparison
 Can you explain how to track my order status on Uniket?,ShoppingAssistant
-"I want to upgrade my kitchen appliances with modern, energy-efficient models that include a new refrigerator, stove, dishwasher, and microwave.",Discount
+"I want to upgrade my kitchen appliances with modern, energy-efficient models that include a new refrigerator, stove, dishwasher, and microwave.",ProductSearch
 "I want to buy a wristwatch, but I'm torn between the Omega Seamaster and the Rolex Submariner. Could you compare them?",ProductComparison
-"I can't believe how poorly designed this shopping platform is, I need an easier way to search for products!",ShoppingAssistant
+"I can't believe how poorly designed this shopping platform is, show me me last 10 orders.",ShoppingAssistant
 I can't believe how expensive this store is! I need some coupon codes to save some money. ,Discount
 I'm considering purchasing the Nikon D7500 DSLR camera. Can you assist me in understanding its pros and cons based on consumer feedback?,Review
 I'm looking for discounts for a specific beauty retailer. Any suggestions?,Discount
-"I'm planning to buy some home decor items such as curtains, rugs, wall art, decorative pillows, and indoor plants to enhance the aesthetic appeal of my living space.",Discount
+"I'm planning to buy some home decor items such as curtains, rugs, wall art, decorative pillows, and indoor plants to enhance the aesthetic appeal of my living space. Get me the best prices on them.",Discount
 Could you compare Samsung Galaxy Tab S6 and Apple iPad Pro for me? I am considering their performance and display.,ProductComparison
 I need some coupons for grocery shopping. Can you assist me with that?,Discount
 I want to buy a new pair of shoes. Do you know where I can find some discounts?,Discount
 I'm fed up with the prices here. Help me find some coupon codes to get a better deal!,Discount
 I can't decide whether to get a Tesla Model 3 or a Chevy Bolt. Could you help me compare them?,ProductComparison
-"Can you compare the storage capacity, read/write speeds, durability, and prices of different models of Solid State Drives (SSDs) for me, specifically focusing on models from various manufacturers and providing a comprehensive analysis of their performance and features?",Review
+"Can you compare the storage capacity, read/write speeds, durability, and prices of different models of Solid State Drives (SSDs) for me, specifically focusing on models from various manufacturers and providing a comprehensive analysis of their performance and features?",ProductComparison
 "Hey, I want to buy a new phone. Can you find any coupon codes for electronic stores?",Discount
 I'm currently actively looking to purchase a brand new camera that will suit my specific needs and preferences.,ProductSearch
 I'm planning to travel and I need to book a hotel. Can you find any coupons for hotel bookings?,Discount
@@ -98,9 +98,9 @@ I'm planning to travel and I need to book a hotel. Can you find any coupons for 
 I want to personalize a gift for a special occasion and make it meaningful and unique to the recipient.,ShoppingAssistant
 I'm in the mood for some online shopping. Do you have any coupon codes for clothing stores?,Discount
 I've added a lot of things to my online shopping cart. Can you show me a QR code to make it easier to view?,ShoppingAssistant
-"To search for a specific product on Uniket, users can utilize the search bar located at the top of the homepage. By entering relevant keywords such as the desired product's name, brand, or category, users can narrow down their search and browse through a selection of matching products available on the Uniket platform.",ShoppingAssistant
+Could you update me when the prices of the Samsung Watch 4 drops below $200?,ShoppingAssistant
 "Could you analyze the customer reviews for different laptops under $1000 and provide a detailed report including information on performance, durability, battery life, display quality, portability, and overall user satisfaction?",Review
-"I can't stand reading countless Amazon reviews, can you help me decide which TV to buy?",Review
+"I can't stand reading countless Amazon reviews, can you help me if the Samsung Frame TV is a good buy?",Review
 I would like a better system to handle my online shopping cart. Can you generate a QR code for it?,ShoppingAssistant
 I'm trying to have a smoother online shopping experience by utilizing a QR code. Can your tool provide that?,ShoppingAssistant
 Hi! Where can I find discounted prices or coupon codes for online stores?,Discount
@@ -111,26 +111,26 @@ How do I filter my search results by price range on Uniket?,ShoppingAssistant
 "Do you have any suggestions for popular and reliable websites that cater specifically to providing a wide range of coupon codes and exclusive discounts for online shopping across various categories and brands, ensuring optimal savings for users?",Discount
 "I'm looking for a discounted smartwatch with advanced health tracking features, durable build quality, water resistance up to 50 meters, GPS functionality, long battery life of at least 5 days, compatible with both iOS and Android devices, and a sleek design.",ProductSearch
 Can you find me a reliable online store that sells secondhand electronics in Japan?,ProductSearch
-Can you suggest a reliable coffee machine with good customer reviews on Amazon that has a budget-friendly price range and offers a wide variety of features for brewing customized coffee?,Review
+How reliable is the Nescafe automated coffee machine?,Review
 Can you provide a review analysis for the Xbox Series X? I'd like to know its advantages and disadvantages.,Review
 I've been doing a lot of online shopping and it's become a bit chaotic. Can you supply a QR code for my cart to help me stay organized?,ShoppingAssistant
 Can you assist me in finding a laptop within my specific budget range while also ensuring it has positive reviews from previous users?,ProductSearch
 I'm planning to buy some books. Can you help me find any coupon codes for online bookstores or e-readers?,Discount
-"Can you suggest a high-quality, reliable, and recommended external hard drive that has received consistently positive user reviews on Amazon?",Review
+List out 5 star review of the Sandisk 1TB Hard Disk,Review
 I am looking to purchase a high-quality pair of running shoes that fall within a specific price range that I have in mind.,ProductSearch
 I'm in the market for a new gaming console. Can you help me find one that offers great performance and is reasonably priced?,ProductSearch
-I'm planning a hiking trip and need to buy some outdoor gear. Can you recommend some durable and waterproof products from Uniket?,ShoppingAssistant
+I'm planning a hiking trip and need to buy some outdoor gear. Can you recommend some durable and waterproof products from Decathlon that I must use?,ShoppingAssistant
 "I want to share my cart with a friend, how can I generate a QR code on Uniket?",ShoppingAssistant
 "Hey, I'm on a tight budget but still want to enjoy some online shopping. Can you suggest any good deals or discounts?",Discount
 "Can you thoroughly analyze and evaluate the reviews of various SSDs, taking into consideration factors such as performance, reliability, durability, storage capacity, and user satisfaction, and provide a precise recommendation declaring the absolute best SSD available in the market?",Review
 I'm starting a home gym and need to buy exercise equipment. Can you help me find affordable options for weights and a treadmill?,ProductSearch
-"I'm sick of reading Amazon reviews for laptops, can you compare some models for me?",Review
+"I'm sick of reading Amazon reviews for laptops, how good is the M5 Macbook Air?",Review
 I'm planning to buy a new smartphone. Are there any deals or discounts available?,Discount
 I have a difficult choice to make between the iPhone 12 Pro and the Samsung Galaxy S20. Can you help me break down the differences?,ProductComparison
 Can you find me coupon codes for a popular online grocery store?,Discount
 I'm looking to buy some new clothes for a special occasion. Can you help me find something unique and stylish for women on Uniket?,ShoppingAssistant
 I'm planning to upgrade my laptop. Can you summarize the reviews on the Dell XPS range and tell me their good and bad points please?,Review
-I'm looking for a comfortable office chair with good back support. Any suggestions?,Review
+How many stars does the xyz office chair have?,Review
 "To enable sharing your cart with a friend on Uniket, you can easily generate a QR code by following these steps:",ShoppingAssistant
 "I'm planning a beach vacation, can you recommend some must-have products from Amazon?",ProductSearch
 I need to find a gift for my friend's birthday. Can you suggest any trending tech gadgets available on Uniket?,ShoppingAssistant
@@ -148,9 +148,9 @@ Can you please provide me with a recommendation for a high-quality camera that i
 "I'm so angry! Today best deals, I can't find any good discounts anywhere!",Discount
 I need assistance in changing my shipping address specifically for my order on Uniket. Can you please guide me on where exactly I can make this change?,ShoppingAssistant
 I need a laptop for gaming that has a high refresh rate display and a powerful graphics card.,ProductSearch
-I need a beginner-friendly electric guitar with good sound quality. Any recommendations?,Review
+How well recommended is the 'Wings of Fire' book?,Review
 "OMG! I just found this amazing website that offers the best deals and coupons from over 50,000 online stores! Can you show me some coupons for my favorite brands like Nike, Amazon, and Sephora?",Discount
-"Can you find a durable and waterproof fitness tracker, specifically designed for swimming activities, that can withstand the intense demands of being submerged in water for extended periods of time without compromising its functionality?",Review
+List out the real life user experience of the Garmin Smart watch,Review
 I would greatly appreciate if you could provide me with a comprehensive summary highlighting the advantages and disadvantages of the aforementioned Amazon product.,Review
 Can you help me find the latest smartphone models from top brands?,ProductSearch
 "This shopping app is a joke, there's no way to keep track of my cart!",ShoppingAssistant
@@ -162,27 +162,27 @@ I'm overwhelmed by the number of items in my cart. How can I manage my online pu
 "I'm interested in buying gardening tools and supplies such as shovels, rakes, watering cans, gloves, pots, fertilizers, and seeds for various plants and flowers.",ProductSearch
 Can you show me how to add items to my cart on Uniket?,ShoppingAssistant
 I'm currently searching for a highly-rated vegan restaurant in Osaka that specifically caters to individuals following a plant-based diet and offers a wide range of delicious vegan dishes.,ProductSearch
-"I would like to find wireless earphones on Amazon, and I am seeking recommendations for a high-quality pair.",Review
-I'm redecorating my living room and need a new sofa. Can you assist me in finding affordable options with good customer reviews?,Review
+What are people's opinions on the Boat 512s?,Review
+I'm redecorating my living room and need a new sofa. Do IKEA sofas have good comments?,Review
 "I'm looking to save some money while shopping online by finding discount codes, comparing prices from different websites, and taking advantage of any special promotions or deals available.",Discount
-"To filter your search results by price range on Uniket, you can utilize the website's advanced search options and specify the desired price range to narrow down the displayed products accordingly.",ShoppingAssistant
-I need a recommendation for a good pair of wireless earphones on Amazon.,Review
+How to filter your search results by price range on Uniket?,ShoppingAssistant
+"What do users say about the sound quality, battery life, and reliability of the Bose QC45?",Review
 Could you please provide a detailed summary of the advantages and disadvantages of this particular SSD model based on users' requests and feedback?,Review
 Can you guide me in choosing between a MacBook Pro and a Dell XPS 15? I need a laptop for graphic designing.,ProductComparison
 Could you present a QR code for my shopping cart so I can easily scan and view its contents?,ShoppingAssistant
-Can you find a durable and waterproof fitness tracker for swimming?,Review
+"How does the Apple Watch fare in terms of features, accuracy, and customer feedback?",Review
 This store is ripping me off! Do you have any coupon codes that can help me save?,Discount
-Can you find a versatile blender with a powerful motor and multiple speed settings that is specifically designed for making smoothies and soups with ease and efficiency?,Review
+How many speed settings does the Usha 3 blender have?,Review
 Do you have any exclusive offers for online shopping?,Discount
 "Can you help me find a comprehensive and detailed cookbook specifically focused on vegetarian recipes, containing a wide variety of plant-based dishes suitable for different diets and tastes?",ProductSearch
-"I need to buy some clothes specifically, such as shirts, pants, or dresses, from the popular clothing retailer, H&M.",Discount
+"Are there any current discounts, sales, or promotional offers on shirts, pants, or dresses at H&M?",Discount
 Do you have any startups for sale in the e-commerce sector?,ProductSearch
 "I'm interested in purchasing a tablet with at least 10 inches screen size, high-resolution display, at least 64GB of storage, a powerful processor, long battery life, and support for wireless connectivity like Wi-Fi and Bluetooth.",ProductSearch
 I'm looking for some discounts on online stores. Any suggestions?,Discount
 Could you provide a summary of the pros and cons for Intel 660p?,Review
-"Can you assist me in finding the latest and most affordable promotions, discounts, and offers specifically tailored for Uniket products or services?",ShoppingAssistant
+"Can you assist me in finding the latest and most affordable promotions, discounts, and offers specifically tailored for Uniket products or services?",Discount
 "I'm so frustrated, eBay is so expensive! Any suggestions?",ProductSearch
-"I'm looking to buy a variety of clothes, including tops, bottoms, dresses, and accessories, specifically from the renowned retailer, Macy's.",Discount
+"I'm looking to buy a variety of clothes, including tops, bottoms, dresses, and accessories, specifically from the renowned retailer, Macy's.",ProductSearch
 I seem to have lost track of everything I've put in my cart. Is there a way I could manage it more efficiently?,ShoppingAssistant
 I'm looking for a laptop with at least 16GB of RAM and a dedicated graphics card. Can you help me find one on Kakaku.com?,ProductSearch
 Can you compare the reviews of different SSDs and tell me which one is the best?,Review
